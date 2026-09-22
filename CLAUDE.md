@@ -31,8 +31,13 @@ without the game's data.
 ```bash
 export FGF_PMDATA=/path/to/pmdata.bin   # or pass -f
 python decode_bdd.py --list             # 844 tables
-python decode_bdd.py --all -o out/      # 85,038 rows, ~5s
+python decode_bdd.py --manifest -o out/ # index of all 844: rows + field names
+python decode_bdd.py --all -o out/      # 85,038 rows, ~5s, ~111 MB
+python decode_bdd.py "t_*skill*"        # table args may be globs
 ```
+
+A full dump is ~111 MB across 844 files, so `out/` is git-ignored: commit the
+manifest and whichever tables a task actually needs, never the whole dump.
 
 `-f` wins, then `$FGF_PMDATA` / `$FGF_LUAPACK`, then the known Windows install
 paths. Don't reintroduce a hardcoded absolute path as a default.

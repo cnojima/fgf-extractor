@@ -34,8 +34,14 @@ python decode_bdd.py -f /path/to/pmdata.bin --list
 # export specific tables to ./tables_json/<name>.json
 python decode_bdd.py -f /path/to/pmdata.bin t_warship t_hero_base t_monster_slg_base_new
 
-# export everything
+# export everything (~111 MB; out/ is git-ignored)
 python decode_bdd.py -f /path/to/pmdata.bin --all -o out/
+
+# index all 844 tables without exporting them: row counts + field names
+python decode_bdd.py -f /path/to/pmdata.bin --manifest -o out/
+
+# table names may be globs
+python decode_bdd.py -f /path/to/pmdata.bin "t_*skill*" "t_*attr*"
 ```
 
 With no table arguments it exports the three headline tables. With no `-f` it

@@ -41,6 +41,7 @@ file raw and reads it in place, so file layout == in-memory layout):
   size table  (DAT_180454478): [8,1,1,2,2,4,4,4,4,1]
   decoders 0..6 (PTR_LAB_180454488): f64,u8,i8,u16,i16,u32,i32
 """
+import fnmatch
 import os
 import struct
 import sys
@@ -207,6 +208,52 @@ def resolve_bin(arg):
         "  <game>\\ngame\\<ver>\\launcher_Data\\StreamingAssets\\pmdata.bin")
 
 
+def _typename(v):
+    if isinstance(v, bool):
+        return "bool"
+    if isinstance(v, dict):
+        return "node"
+    if isinstance(v, str):
+        return "string"
+    return "number"
+
+
+def summarize(tbl):
+    """Index entry for one decoded table: shape, not contents.
+
+    With 844 tables the manifest is how you find the handful that matter --
+    it stays small enough to keep in the repo while the dump itself does not.
+    """
+    fields = {}
+    for row in tbl.values():
+        if isinstance(row, dict):
+            for k, v in row.items():
+                fields.setdefault(str(k), _typename(v))
+    keys = list(tbl)
+    return {
+        "rows": len(tbl),
+        "key_type": "string" if keys and isinstance(keys[0], str) else "number",
+        "row_type": "node" if fields else "scalar",
+        "fields": fields,
+    }
+
+
+def expand(names, patterns):
+    """Resolve table arguments, which may be globs: 't_*skill*'."""
+    out = []
+    for p in patterns:
+        if any(c in p for c in "*?["):
+            hits = [n for n in names
+                    if fnmatch.fnmatch(n, p)
+                    or fnmatch.fnmatch(n.replace("base.", "", 1), p)]
+            if not hits:
+                print(f"  ! {p}: no table matches", file=sys.stderr)
+            out.extend(h for h in hits if h not in out)
+        elif p not in out:
+            out.append(p)
+    return out
+
+
 def main(argv):
     import argparse
     import json
@@ -218,8 +265,12 @@ def main(argv):
     ap.add_argument("-o", "--out", default="tables_json", help="output directory")
     ap.add_argument("--list", action="store_true", help="list all table names and exit")
     ap.add_argument("--all", action="store_true", help="export every table")
+    ap.add_argument("--manifest", action="store_true",
+                    help="also write <out>/_manifest.json: every table with its "
+                         "row count and field names (an index of all 844)")
     ap.add_argument("tables", nargs="*",
-                    help="table names to export, e.g. t_warship t_hero_base")
+                    help="table names to export, globs allowed, "
+                         "e.g. t_warship 't_*skill*'")
     a = ap.parse_args(argv)
 
     with open(resolve_bin(a.file), "rb") as fh:
@@ -230,22 +281,41 @@ def main(argv):
             print(n)
         print(f"\n{len(names)} tables", file=sys.stderr)
         return
-    if not a.all and not a.tables:
+    if not a.all and not a.tables and not a.manifest:
         # default demo: the three headline stat tables
         a.tables = ["t_warship", "t_hero_base", "t_monster_slg_base_new"]
-    want = names if a.all else a.tables
+    want = list(names) if a.all else expand(names, a.tables)
+    want_set = set(want)
+    # --manifest indexes every table, not just the exported ones; names first so
+    # the manifest keeps file order, then any leftover args so typos are still reported.
+    scan = list(names) if a.manifest else []
+    scan += [t for t in want if t not in scan]
+
     os.makedirs(a.out, exist_ok=True)
-    for t in want:
+    manifest = {}
+    total = 0
+    for t in scan:
         try:
             tbl = b.get_table(t)
         except KeyError:
             print(f"  ! {t}: not found", file=sys.stderr)
+            continue
+        if a.manifest:
+            manifest[t] = summarize(tbl)
+            total += len(tbl)
+        if t not in want_set:
             continue
         base = t.replace("base.", "")
         path = os.path.join(a.out, base + ".json")
         with open(path, "w", encoding="utf-8") as fh:
             json.dump(tbl, fh, ensure_ascii=False, indent=1)
         print(f"  {base}: {len(tbl)} rows -> {path}")
+    if a.manifest:
+        path = os.path.join(a.out, "_manifest.json")
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump({"tables": len(manifest), "rows": total,
+                       "index": manifest}, fh, ensure_ascii=False, indent=1)
+        print(f"  manifest: {len(manifest)} tables / {total} rows -> {path}")
 
 
 if __name__ == "__main__":

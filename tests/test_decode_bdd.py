@@ -197,3 +197,67 @@ def test_resolve_bin_errors_when_nothing_is_found(monkeypatch, tmp_path):
     monkeypatch.setenv("USERPROFILE", str(tmp_path))
     with pytest.raises(SystemExit):
         decode_bdd.resolve_bin(None)
+
+
+# ---- glob selection and manifest --------------------------------------------
+def _pack(tmp_path):
+    """A pack with a few plausibly-named tables to select from."""
+    p = tmp_path / "pmdata.bin"
+    p.write_bytes(build(Node([
+        ("t_warship", Node([(1100101, Node([("Power", num("u16", 2000)),
+                                            ("DamageType", num("u8", 2))]))], mode="num")),
+        ("t_skill_base", Node([(10001010, Node([("Ratio", num("u16", 12500))]))], mode="num")),
+        ("t_skill_effect", Node([(1, Node([("Kind", text("dot"))]))], mode="num")),
+        ("base.t_attr", Node([("10", text("hp"))])),
+    ])))
+    return p
+
+
+def test_glob_selects_matching_tables(tmp_path):
+    out = tmp_path / "out"
+    decode_bdd.main(["-f", str(_pack(tmp_path)), "-o", str(out), "t_skill_*"])
+    assert sorted(f.name for f in out.iterdir()) == ["t_skill_base.json",
+                                                     "t_skill_effect.json"]
+
+
+def test_glob_matches_with_or_without_the_base_prefix(tmp_path):
+    out = tmp_path / "out"
+    decode_bdd.main(["-f", str(_pack(tmp_path)), "-o", str(out), "*attr*"])
+    assert [f.name for f in out.iterdir()] == ["t_attr.json"]
+
+
+def test_glob_without_a_match_is_reported(tmp_path, capsys):
+    out = tmp_path / "out"
+    decode_bdd.main(["-f", str(_pack(tmp_path)), "-o", str(out), "t_nope_*", "t_warship"])
+    assert "t_nope_*: no table matches" in capsys.readouterr().err
+    assert (out / "t_warship.json").exists()
+
+
+def test_manifest_indexes_every_table_not_just_exported_ones(tmp_path):
+    out = tmp_path / "out"
+    decode_bdd.main(["-f", str(_pack(tmp_path)), "-o", str(out), "--manifest", "t_warship"])
+    m = json.loads((out / "_manifest.json").read_text(encoding="utf-8"))
+    assert m["tables"] == 4
+    assert m["rows"] == 4
+    assert set(m["index"]) == {"t_warship", "t_skill_base", "t_skill_effect", "base.t_attr"}
+    # only the requested table is actually exported
+    assert sorted(f.name for f in out.iterdir()) == ["_manifest.json", "t_warship.json"]
+
+
+def test_manifest_records_shape_and_field_types(tmp_path):
+    out = tmp_path / "out"
+    decode_bdd.main(["-f", str(_pack(tmp_path)), "-o", str(out), "--manifest"])
+    m = json.loads((out / "_manifest.json").read_text(encoding="utf-8"))["index"]
+    assert m["t_warship"] == {
+        "rows": 1, "key_type": "number", "row_type": "node",
+        "fields": {"Power": "number", "DamageType": "number"},
+    }
+    assert m["base.t_attr"]["key_type"] == "string"
+    assert m["base.t_attr"]["row_type"] == "scalar"
+    assert m["t_skill_effect"]["fields"] == {"Kind": "string"}
+
+
+def test_manifest_alone_exports_nothing(tmp_path):
+    out = tmp_path / "out"
+    decode_bdd.main(["-f", str(_pack(tmp_path)), "-o", str(out), "--manifest"])
+    assert [f.name for f in out.iterdir()] == ["_manifest.json"]
