@@ -21,6 +21,12 @@ Point the decoder at your copy of `pmdata.bin` (find it at one of):
 - `...\Patch\Data\pmdata.bin`
 - `<game>\ngame\<ver>\launcher_Data\StreamingAssets\pmdata.bin`
 
+Either pass `-f`, or set `FGF_PMDATA` (and `FGF_LUAPACK`) once:
+
+```bash
+export FGF_PMDATA=/path/to/pmdata.bin
+```
+
 ```bash
 # list every table (844 of them)
 python decode_bdd.py -f /path/to/pmdata.bin --list
@@ -32,10 +38,21 @@ python decode_bdd.py -f /path/to/pmdata.bin t_warship t_hero_base t_monster_slg_
 python decode_bdd.py -f /path/to/pmdata.bin --all -o out/
 ```
 
-With no table arguments it exports the three headline tables. If `-f` is
-omitted it defaults to the `%LOCALLOW%` path above.
+With no table arguments it exports the three headline tables. With no `-f` it
+falls back to `$FGF_PMDATA`, then to the `%LOCALLOW%` paths above.
 
 Verified: **all 844 tables / 85,038 rows decode with zero errors (~5 s).**
+
+## Tests
+
+The game's data files aren't in the repo, so the suite builds its own `bdd` and
+LuaPack files with `tests/bdd_writer.py` — every value type, both key modes, all
+three cell widths, both addressing modes. No game data required:
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest tests -q
+```
 
 ## What's here
 
@@ -45,7 +62,8 @@ Verified: **all 844 tables / 85,038 rows decode with zero errors (~5 s).**
 | `extract_luapack.py` | Unpacks `luapack.bin` → 10,879 Lua files (the game's Lua source). |
 | `tables_json/` | Sample exports: `t_warship` (63), `t_hero_base` (20), `t_monster_slg_base_new` (3110). |
 | `FINDINGS.md` | Full reverse-engineering write-up: bdd format, LuaPack format, xlua.dll RVAs, method. |
-| `ghidra_scripts/` | Ghidra headless decompile scripts used to derive the format. |
+| `tests/` | Round-trip tests + `bdd_writer.py`, a synthetic writer for the `bdd` format. |
+| `ghidra_scripts/` | Ghidra headless decompile scripts used to derive the format (Windows + `xlua.dll`). |
 | `run_ghidra_bddfmt.ps1` | Runner for the decompile scripts (only needed to re-derive the format). |
 | `reference/ghidra_logs/` | Decompiler output the format spec was read from. |
 | `reference/lua/` | The two key decoded Lua files: `ConfigDataUtils` and `BddDataMgr` (the config-access chain). |

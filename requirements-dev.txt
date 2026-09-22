@@ -1,0 +1,4 @@
+# Test deps. The decoder itself is stdlib-only; see requirements.txt for the
+# single runtime dep (lz4, used by extract_luapack.py).
+-r requirements.txt
+pytest>=7
