@@ -189,13 +189,27 @@ def candidate_paths():
             os.path.join(patch, "Data", "pmdata.bin")]
 
 
+def _must_exist(path, source):
+    """A path given explicitly is an error if it isn't there, not a traceback.
+
+    $FGF_PMDATA is often a Windows path carried into an environment that can't
+    see it (a cloud session, a CI runner), so say that rather than failing
+    inside open().
+    """
+    if os.path.exists(path):
+        return path
+    raise SystemExit(f"{source} points at \"{path}\", which does not exist here.\n"
+                     "The game's data files are not in this repo -- they live on "
+                     "the machine the game is installed on.")
+
+
 def resolve_bin(arg):
     """-f wins, then $FGF_PMDATA, then the known Windows install paths."""
     if arg:
-        return arg
+        return _must_exist(arg, "-f/--file")
     env = os.environ.get("FGF_PMDATA")
     if env:
-        return env
+        return _must_exist(env, "$FGF_PMDATA")
     for p in candidate_paths():
         if os.path.exists(p):
             return p

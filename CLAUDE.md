@@ -42,6 +42,24 @@ manifest and whichever tables a task actually needs, never the whole dump.
 `-f` wins, then `$FGF_PMDATA` / `$FGF_LUAPACK`, then the known Windows install
 paths. Don't reintroduce a hardcoded absolute path as a default.
 
+## Where the files actually live
+
+On the machine the game is installed on (Windows). These are recorded so a
+session knows what to ask for -- **no session can read them unless it is
+running on that machine**; a cloud container or CI runner cannot.
+
+```
+pmdata.bin   C:\Users\cnoji\AppData\LocalLow\Funplus\Foundation_ Galactic Frontier\official\Patch\pmdata.bin
+             ...\official\Patch\Data\pmdata.bin                     (same file, second copy)
+             D:\FunPlus\Foundation Galactic Frontier\ngame\<ver>\launcher_Data\StreamingAssets\pmdata.bin
+luapack.bin  C:\Users\cnoji\AppData\LocalLow\Funplus\Foundation_ Galactic Frontier\official\Patch\luapack.bin
+xlua.dll     D:\FunPlus\Foundation Galactic Frontier\ngame\<ver>\launcher_Data\Plugins\x86_64\xlua.dll
+```
+
+`<ver>` was `1.1.142.209741.234996` when the format was derived. Setting
+`$FGF_PMDATA` to one of these outside that machine is not an error you can work
+around -- the tools now say so plainly instead of failing inside `open()`.
+
 ## Conventions
 
 - `decode_bdd.py` is **stdlib-only** — keep it that way. `lz4` is a dep of

@@ -187,9 +187,25 @@ def test_cli_reports_a_missing_table_without_failing(tmp_path, capsys):
 
 
 def test_resolve_bin_prefers_the_argument_then_the_env(monkeypatch, tmp_path):
-    monkeypatch.setenv("FGF_PMDATA", str(tmp_path / "env.bin"))
-    assert decode_bdd.resolve_bin("explicit.bin") == "explicit.bin"
-    assert decode_bdd.resolve_bin(None) == str(tmp_path / "env.bin")
+    explicit = tmp_path / "explicit.bin"
+    env = tmp_path / "env.bin"
+    for f in (explicit, env):
+        f.write_bytes(b"")
+    monkeypatch.setenv("FGF_PMDATA", str(env))
+    assert decode_bdd.resolve_bin(str(explicit)) == str(explicit)
+    assert decode_bdd.resolve_bin(None) == str(env)
+
+
+@pytest.mark.parametrize("source", ["arg", "env"])
+def test_a_path_that_does_not_exist_here_is_a_clean_error(monkeypatch, tmp_path, source):
+    """A Windows path carried into a cloud session or CI must not traceback."""
+    missing = r"C:\Users\cnoji\AppData\LocalLow\Funplus\pmdata.bin"
+    monkeypatch.delenv("FGF_PMDATA", raising=False)
+    if source == "env":
+        monkeypatch.setenv("FGF_PMDATA", missing)
+    with pytest.raises(SystemExit) as e:
+        decode_bdd.resolve_bin(missing if source == "arg" else None)
+    assert "does not exist here" in str(e.value)
 
 
 def test_resolve_bin_errors_when_nothing_is_found(monkeypatch, tmp_path):
