@@ -15,7 +15,38 @@ import sys
 
 import lz4.block
 
-BUF = 1 << 20  # 1 MB decompression buffer per file
+BUF = 1 << 20        # first decompression attempt; grows if a file needs more
+MAX_BUF = 1 << 26    # 64 MB ceiling, far above any Lua chunk in the pack
+
+
+def decompress_block(comp):
+    """Decompress one LZ4 block -> (payload, was_compressed).
+
+    The blocks don't store their decompressed size, so the buffer is a guess
+    that has to grow until the file fits. 255:1 is LZ4's maximum expansion
+    ratio, so a block that still fails at that bound is not LZ4 data at all
+    and is returned unchanged.
+    """
+    limit = min(255 * len(comp) + 8, MAX_BUF)
+    size = BUF
+    while True:
+        try:
+            return lz4.block.decompress(comp, uncompressed_size=size), True
+        except Exception:
+            if size >= limit:
+                return comp, False
+            size = min(size * 4, limit)
+
+
+def looks_like_lua(payload):
+    """Is an undecompressed block plausibly a file stored raw, or is it junk?"""
+    if payload.startswith(b"\x1bLua"):      # precompiled chunk
+        return True
+    try:
+        payload.decode("utf-8")
+    except UnicodeDecodeError:
+        return False
+    return True
 
 
 def candidate_paths():
@@ -82,15 +113,17 @@ def main(argv):
     raw = 0
     for nh, si, s in entries:
         comp = d[base + si: base + si + s]
-        try:
-            out = lz4.block.decompress(comp, uncompressed_size=BUF)
+        payload, was_compressed = decompress_block(comp)
+        if was_compressed:
             ok += 1
-        except Exception:
-            # not LZ4 (stored raw?) - keep as-is
-            out = comp
-            raw += 1
+        elif looks_like_lua(payload):
+            raw += 1        # stored uncompressed - kept as-is
+        else:
+            fail += 1       # neither LZ4 nor readable: written, but suspect
+            print(f"  ! {nh:08x}: not LZ4 and not readable Lua "
+                  f"({s} bytes) - written undecoded", file=sys.stderr)
         with open(os.path.join(a.out, f"{nh:08x}.lua"), "wb") as f:
-            f.write(out)
+            f.write(payload)
     print(f"decompressed OK={ok}  stored-raw={raw}  fail={fail}  -> {a.out}/")
 
 
