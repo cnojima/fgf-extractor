@@ -41,6 +41,7 @@ file raw and reads it in place, so file layout == in-memory layout):
   size table  (DAT_180454478): [8,1,1,2,2,4,4,4,4,1]
   decoders 0..6 (PTR_LAB_180454488): f64,u8,i8,u16,i16,u32,i32
 """
+import os
 import struct
 import sys
 
@@ -176,18 +177,44 @@ class Bdd:
         return [k for k, gi in ents]
 
 
-DEFAULT_BIN = (r"C:\Users\cnoji\AppData\LocalLow\Funplus"
-               r"\Foundation_ Galactic Frontier\official\Patch\pmdata.bin")
+# Where pmdata.bin lives on a Windows install. The third known location,
+# <game>\ngame\<ver>\launcher_Data\StreamingAssets\pmdata.bin, can't be
+# guessed (the game dir and version vary) -- pass -f for that one.
+def candidate_paths():
+    home = os.environ.get("USERPROFILE") or os.path.expanduser("~")
+    patch = os.path.join(home, "AppData", "LocalLow", "Funplus",
+                         "Foundation_ Galactic Frontier", "official", "Patch")
+    return [os.path.join(patch, "pmdata.bin"),
+            os.path.join(patch, "Data", "pmdata.bin")]
+
+
+def resolve_bin(arg):
+    """-f wins, then $FGF_PMDATA, then the known Windows install paths."""
+    if arg:
+        return arg
+    env = os.environ.get("FGF_PMDATA")
+    if env:
+        return env
+    for p in candidate_paths():
+        if os.path.exists(p):
+            return p
+    raise SystemExit(
+        "pmdata.bin not found. Pass -f/--file or set FGF_PMDATA.\n"
+        "On Windows it is usually at one of:\n"
+        "  %USERPROFILE%\\AppData\\LocalLow\\Funplus\\Foundation_ Galactic Frontier"
+        "\\official\\Patch\\pmdata.bin\n"
+        "  ...\\Patch\\Data\\pmdata.bin\n"
+        "  <game>\\ngame\\<ver>\\launcher_Data\\StreamingAssets\\pmdata.bin")
 
 
 def main(argv):
     import argparse
     import json
-    import os
     ap = argparse.ArgumentParser(
         description="Decode stat tables from Foundation: Galactic Frontier's "
                     "pmdata.bin (bdd binary format).")
-    ap.add_argument("-f", "--file", default=DEFAULT_BIN, help="path to pmdata.bin")
+    ap.add_argument("-f", "--file", help="path to pmdata.bin "
+                    "(default: $FGF_PMDATA, else the Windows install path)")
     ap.add_argument("-o", "--out", default="tables_json", help="output directory")
     ap.add_argument("--list", action="store_true", help="list all table names and exit")
     ap.add_argument("--all", action="store_true", help="export every table")
@@ -195,7 +222,8 @@ def main(argv):
                     help="table names to export, e.g. t_warship t_hero_base")
     a = ap.parse_args(argv)
 
-    b = Bdd(open(a.file, "rb").read())
+    with open(resolve_bin(a.file), "rb") as fh:
+        b = Bdd(fh.read())
     names = b.table_names()
     if a.list:
         for n in names:

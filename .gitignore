@@ -9,3 +9,6 @@ luapack_lua/          # 10,879 decoded Lua files (~91 MB); regenerate with extra
 *.bin
 pmdata.bin
 luapack.bin
+
+# pytest
+.pytest_cache/
