@@ -1,0 +1,3 @@
+# decode_bdd.py uses only the Python standard library (no deps).
+# extract_luapack.py needs lz4 for the LZ4-block decompression:
+lz4>=4.0

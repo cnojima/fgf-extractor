@@ -1,0 +1,9326 @@
+{
+ "1100101": {
+  "Acceleration": 7,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 16000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 349
+   },
+   "3": {
+    "Key": 20,
+    "Value": 370
+   },
+   "4": {
+    "Key": 22,
+    "Value": 352
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 15
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1100101,
+  "BuildTime": 361000,
+  "CannotTrainGoTo": 91302,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name12,1",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ek_s",
+  "CannotTrainTipText": "1",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "1",
+  "DamageRatio": 12500,
+  "DamageType": 2,
+  "DeadPoint": 763,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 14,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 1,
+  "FormationShowResId": "ship_re_maia_low",
+  "FullHurtPoint": 80,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 11001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 2000,
+  "ProjectileId": 33001,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 763,
+  "PvpFullHurtPoint": 159,
+  "RepairNeedResource": 11001011,
+  "RotateSpeed": 400,
+  "ShipBigIcon": "130001",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131001",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30001002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300032,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_re_maia_low",
+  "ShipSmallIcon": "80301",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30001001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_re_maia_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 1,
+  "TLevel": 1,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30001002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 90,
+  "UnitName": "Ship_Maia",
+  "id": 1100101
+ },
+ "1200101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 40000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 873
+   },
+   "3": {
+    "Key": 20,
+    "Value": 927
+   },
+   "4": {
+    "Key": 22,
+    "Value": 882
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 20
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1200101,
+  "BuildTime": 3861000,
+  "CannotTrainGoTo": 91302,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name12,10",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ek_s",
+  "CannotTrainTipText": "10",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "10",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 2707,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 2,
+  "FormationShowResId": "ship_beggar_low",
+  "FullHurtPoint": 282,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 12001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 5000,
+  "ProjectileId": 33002,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 2707,
+  "PvpFullHurtPoint": 564,
+  "RepairNeedResource": 12001011,
+  "RotateSpeed": 350,
+  "ShipBigIcon": "ui_icon_spaceship_beggar",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_beggar_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_beggar_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300029,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_beggar_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_beggar",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_beggar_low_idle_01",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_beggar_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 1,
+  "TLevel": 2,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_beggar_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 60,
+  "UnitName": "Ship_Beggar",
+  "id": 1200101
+ },
+ "1200102": {
+  "Acceleration": 5,
+  "AtkCD": 2500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 40000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 873
+   },
+   "3": {
+    "Key": 20,
+    "Value": 927
+   },
+   "4": {
+    "Key": 22,
+    "Value": 882
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 20
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1200102,
+  "BuildTime": 3861000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 2707,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 2,
+  "FormationShowResId": "ship_beggar_low",
+  "FullHurtPoint": 564,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 12001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 5000,
+  "ProjectileId": 33002,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 12001021,
+  "RotateSpeed": 350,
+  "ShipBigIcon": "ui_icon_spaceship_beggar",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_beggar_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_beggar_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300029,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_beggar_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_beggar",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_beggar_low_idle_01",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_beggar_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 2,
+  "TLevel": 2,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_beggar_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 60,
+  "UnitName": "Ship_Beggar",
+  "id": 1200102
+ },
+ "1200103": {
+  "Acceleration": 5,
+  "AtkCD": 2500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 40000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 873
+   },
+   "3": {
+    "Key": 20,
+    "Value": 927
+   },
+   "4": {
+    "Key": 22,
+    "Value": 882
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 20
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1200103,
+  "BuildTime": 3861000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 2707,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 2,
+  "FormationShowResId": "ship_beggar_low",
+  "FullHurtPoint": 564,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 12001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 5000,
+  "ProjectileId": 33002,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 12001031,
+  "RotateSpeed": 350,
+  "ShipBigIcon": "ui_icon_spaceship_beggar",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_beggar_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_beggar_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300029,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_beggar_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_beggar",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_beggar_low_idle_01",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_beggar_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 3,
+  "TLevel": 2,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_beggar_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 60,
+  "UnitName": "Ship_Beggar",
+  "id": 1200103
+ },
+ "1300101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1746
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1854
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1764
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300101,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 91302,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name12,15",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ek_s",
+  "CannotTrainTipText": "15",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "15",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_flagellant56_low",
+  "FullHurtPoint": 591,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 13001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33003,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 5673,
+  "PvpFullHurtPoint": 1182,
+  "RepairNeedResource": 13001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_flagellant56",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_flagellant56_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_flagellant56_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_flagellant56",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_flagellant56_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 1,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Flagellant56",
+  "id": 1300101
+ },
+ "1300102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1746
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1854
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1764
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300102,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_flagellant56_low",
+  "FullHurtPoint": 1182,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 13001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33003,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 13001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_flagellant56",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_flagellant56_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_flagellant56_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_flagellant56",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_flagellant56_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 2,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Flagellant56",
+  "id": 1300102
+ },
+ "1300103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1746
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1854
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1764
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300103,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_flagellant56_low",
+  "FullHurtPoint": 1182,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 13001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33003,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 13001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_flagellant56",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_flagellant56_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_flagellant56_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_flagellant56",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_flagellant56_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 3,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Flagellant56",
+  "id": 1300103
+ },
+ "1300104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1746
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1854
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1764
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300104,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_flagellant56_low",
+  "FullHurtPoint": 1182,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 13001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33003,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 13001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_flagellant56",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_flagellant56_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_flagellant56_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_flagellant56",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_flagellant56_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 4,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_flagellant56_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Flagellant56",
+  "id": 1300104
+ },
+ "1400101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2793
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2966
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2822
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400101,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 91302,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name12,20",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ek_s",
+  "CannotTrainTipText": "20",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "20",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 4,
+  "FormationShowResId": "ship_armyant_low",
+  "FullHurtPoint": 1613,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 14001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33004,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 15480,
+  "PvpFullHurtPoint": 3225,
+  "RepairNeedResource": 14001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130004",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "131004",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30004002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_armyant_low",
+  "ShipSmallIcon": "80304",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30004001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_armyant_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 1,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30004002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_ArmyAnt",
+  "id": 1400101
+ },
+ "1400102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2793
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2966
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2822
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400102,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 4,
+  "FormationShowResId": "ship_armyant_low",
+  "FullHurtPoint": 3225,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 14001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33004,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 14001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130004",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "131004",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30004002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_armyant_low",
+  "ShipSmallIcon": "80304",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30004001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_armyant_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 2,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30004002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_ArmyAnt",
+  "id": 1400102
+ },
+ "1400103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2793
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2966
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2822
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400103,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 4,
+  "FormationShowResId": "ship_armyant_low",
+  "FullHurtPoint": 3225,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 14001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33004,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 14001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130004",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "131004",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30004002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_armyant_low",
+  "ShipSmallIcon": "80304",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30004001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_armyant_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 3,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30004002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_ArmyAnt",
+  "id": 1400103
+ },
+ "1400104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2793
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2966
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2822
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400104,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 4,
+  "FormationShowResId": "ship_armyant_low",
+  "FullHurtPoint": 3225,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 14001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33004,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 14001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130004",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "131004",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30004002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_armyant_low",
+  "ShipSmallIcon": "80304",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30004001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_armyant_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 4,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30004002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_ArmyAnt",
+  "id": 1400104
+ },
+ "1500101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4044
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4295
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4086
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500101,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 91302,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name12,25",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ek_s",
+  "CannotTrainTipText": "25",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "25",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_msfortune_low",
+  "FullHurtPoint": 3136,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 15001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33005,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 30105,
+  "PvpFullHurtPoint": 6272,
+  "RepairNeedResource": 15001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_msfortune",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_msfortune_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_msfortune_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_msfortune_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_msfortune",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_msfortune_low_idle_01",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_msfortune_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 1,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_msfortune_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Msfortune",
+  "id": 1500101
+ },
+ "1500102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4044
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4295
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4086
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500102,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_msfortune_low",
+  "FullHurtPoint": 6272,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 15001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33005,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 15001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_msfortune",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_msfortune_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_msfortune_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_msfortune_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_msfortune",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_msfortune_low_idle_01",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_msfortune_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 2,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_msfortune_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Msfortune",
+  "id": 1500102
+ },
+ "1500103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4044
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4295
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4086
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500103,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_msfortune_low",
+  "FullHurtPoint": 6272,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 15001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33005,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 15001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_msfortune",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_msfortune_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_msfortune_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_msfortune_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_msfortune",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_msfortune_low_idle_01",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_msfortune_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 3,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_msfortune_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Msfortune",
+  "id": 1500103
+ },
+ "1500104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4044
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4295
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4086
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500104,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_msfortune_low",
+  "FullHurtPoint": 6272,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 15001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33005,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 15001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_msfortune",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_msfortune_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_msfortune_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_msfortune_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_msfortune",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_msfortune_low_idle_01",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_msfortune_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 4,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_msfortune_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Msfortune",
+  "id": 1500104
+ },
+ "1600101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5257
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5582
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5311
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600101,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 91302,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name12,30",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ek_s",
+  "CannotTrainTipText": "30",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "30",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_fortune_low",
+  "FullHurtPoint": 6609,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 16001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33005,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 63446,
+  "PvpFullHurtPoint": 13218,
+  "RepairNeedResource": 16001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130007",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "131007",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30007002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_fortune_low",
+  "ShipSmallIcon": "80307",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30007001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_fortune_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 1,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30007002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Fortune",
+  "id": 1600101
+ },
+ "1600102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5257
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5582
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5311
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600102,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_fortune_low",
+  "FullHurtPoint": 13218,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 16001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33005,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 16001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130007",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "131007",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30007002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_fortune_low",
+  "ShipSmallIcon": "80307",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30007001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_fortune_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 2,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30007002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Fortune",
+  "id": 1600102
+ },
+ "1600103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5257
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5582
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5311
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600103,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_fortune_low",
+  "FullHurtPoint": 13218,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 16001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33005,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 16001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130007",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "131007",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30007002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_fortune_low",
+  "ShipSmallIcon": "80307",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30007001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_fortune_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 3,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30007002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Fortune",
+  "id": 1600103
+ },
+ "1600104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5257
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5582
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5311
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600104,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_fortune_low",
+  "FullHurtPoint": 13218,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 16001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33005,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 16001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130007",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "131007",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30007002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_fortune_low",
+  "ShipSmallIcon": "80307",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30007001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_fortune_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 4,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30007002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Fortune",
+  "id": 1600104
+ },
+ "1700101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 288000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 6305
+   },
+   "3": {
+    "Key": 20,
+    "Value": 6695
+   },
+   "4": {
+    "Key": 22,
+    "Value": 6370
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 45
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1700101,
+  "BuildTime": 103680000,
+  "CannotTrainGoTo": 91309,
+  "CannotTrainKey": "Train_ship_unlock_research",
+  "CannotTrainKeyParam": "Person_Craft_T7_Research_19_Name_1",
+  "CannotTrainTipIcon": "ui_icon_tech_research",
+  "CannotTrainTipText": "Train_Ship_Craft_Tech",
+  "CannotTrainUIKey": "Train_ship_unlock_research_ui",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 2,
+  "DeadPoint": 102600,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_cyclops_low",
+  "FullHurtPoint": 10688,
+  "GenresType": 1,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 17001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 120000,
+  "ProjectileId": 33018,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 102600,
+  "PvpFullHurtPoint": 21375,
+  "RepairNeedResource": 17001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_cyclops",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_cyclops_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_cyclops_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_cyclops_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_cyclops",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_cyclops_low_idle_01",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 106,
+  "ShowResId": "ship_cyclops_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000001
+  },
+  "SubTLevel": 1,
+  "TLevel": 7,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_cyclops_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Kinetic_T7",
+  "id": 1700101
+ },
+ "2100101": {
+  "Acceleration": 7,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 16000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 370
+   },
+   "3": {
+    "Key": 20,
+    "Value": 360
+   },
+   "4": {
+    "Key": 22,
+    "Value": 352
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 15
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1100101,
+  "BuildTime": 361000,
+  "CannotTrainGoTo": 91307,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name15,1",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_beam_s",
+  "CannotTrainTipText": "1",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "1",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 763,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 14,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 1,
+  "FormationShowResId": "ship_spndlek93_low",
+  "FullHurtPoint": 80,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 21001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 2000,
+  "ProjectileId": 33011,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 763,
+  "PvpFullHurtPoint": 159,
+  "RepairNeedResource": 11001011,
+  "RotateSpeed": 400,
+  "ShipBigIcon": "130003",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131003",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30003002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300036,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_spndlek93_low",
+  "ShipSmallIcon": "80302",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30003001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_spndlek93_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 1,
+  "TLevel": 1,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30003002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 90,
+  "UnitName": "Ship_SpndleK93",
+  "id": 2100101
+ },
+ "2200101": {
+  "Acceleration": 7,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 40000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 927
+   },
+   "3": {
+    "Key": 20,
+    "Value": 900
+   },
+   "4": {
+    "Key": 22,
+    "Value": 882
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 20
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1200101,
+  "BuildTime": 3861000,
+  "CannotTrainGoTo": 91307,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name15,10",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_beam_s",
+  "CannotTrainTipText": "10",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "10",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 2707,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 14,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 2,
+  "FormationShowResId": "ship_gazerg21_low",
+  "FullHurtPoint": 282,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 22001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 5000,
+  "ProjectileId": 33012,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 2707,
+  "PvpFullHurtPoint": 564,
+  "RepairNeedResource": 12001011,
+  "RotateSpeed": 350,
+  "ShipBigIcon": "ui_icon_spaceship_gazerg21",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_gazerg21_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_gazerg21_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300035,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_gazerg21_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_gazerg21",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_gazerg21_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_gazerg21_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 1,
+  "TLevel": 2,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_gazerg21_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 60,
+  "UnitName": "Ship_GazerG21",
+  "id": 2200101
+ },
+ "2200102": {
+  "Acceleration": 7,
+  "AtkCD": 2500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 40000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 927
+   },
+   "3": {
+    "Key": 20,
+    "Value": 900
+   },
+   "4": {
+    "Key": 22,
+    "Value": 882
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2150
+   },
+   "7": {
+    "Key": 112,
+    "Value": 450
+   },
+   "8": {
+    "Key": 105,
+    "Value": 15900
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10270
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1024
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 20
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1200102,
+  "BuildTime": 3861000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 2707,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 14,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 2,
+  "FormationShowResId": "ship_gazerg21_low",
+  "FullHurtPoint": 564,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 22001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 5000,
+  "ProjectileId": 33012,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 12001021,
+  "RotateSpeed": 350,
+  "ShipBigIcon": "ui_icon_spaceship_gazerg21",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_gazerg21_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_gazerg21_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300035,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_gazerg21_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_gazerg21",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_gazerg21_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_gazerg21_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 2,
+  "TLevel": 2,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_gazerg21_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 60,
+  "UnitName": "Ship_GazerG21",
+  "id": 2200102
+ },
+ "2200103": {
+  "Acceleration": 7,
+  "AtkCD": 2500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 40000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 927
+   },
+   "3": {
+    "Key": 20,
+    "Value": 900
+   },
+   "4": {
+    "Key": 22,
+    "Value": 882
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2150
+   },
+   "7": {
+    "Key": 112,
+    "Value": 450
+   },
+   "8": {
+    "Key": 105,
+    "Value": 15900
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10270
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1024
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 20
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1200103,
+  "BuildTime": 3861000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 2707,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 14,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 2,
+  "FormationShowResId": "ship_gazerg21_low",
+  "FullHurtPoint": 564,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 22001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 5000,
+  "ProjectileId": 33012,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 12001031,
+  "RotateSpeed": 350,
+  "ShipBigIcon": "ui_icon_spaceship_gazerg21",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_gazerg21_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_gazerg21_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300035,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_gazerg21_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_gazerg21",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_gazerg21_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_gazerg21_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 3,
+  "TLevel": 2,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_gazerg21_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 60,
+  "UnitName": "Ship_GazerG21",
+  "id": 2200103
+ },
+ "2300101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1854
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1800
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1764
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300101,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 91307,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name15,15",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_beam_s",
+  "CannotTrainTipText": "15",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "15",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_solarflaret32_low",
+  "FullHurtPoint": 591,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 23001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33013,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 5673,
+  "PvpFullHurtPoint": 1182,
+  "RepairNeedResource": 13001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130006",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131006",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30006002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_solarflaret32_low",
+  "ShipSmallIcon": "80305",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30006001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_solarflaret32_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 1,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30006002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_SolarFlareT32",
+  "id": 2300101
+ },
+ "2300102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1854
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1800
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1764
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2800
+   },
+   "7": {
+    "Key": 112,
+    "Value": 900
+   },
+   "8": {
+    "Key": 105,
+    "Value": 16800
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10540
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1348
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300102,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_solarflaret32_low",
+  "FullHurtPoint": 1182,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 23001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33013,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 13001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130006",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131006",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30006002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_solarflaret32_low",
+  "ShipSmallIcon": "80305",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30006001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_solarflaret32_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 2,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30006002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_SolarFlareT32",
+  "id": 2300102
+ },
+ "2300103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1854
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1800
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1764
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2800
+   },
+   "7": {
+    "Key": 112,
+    "Value": 900
+   },
+   "8": {
+    "Key": 105,
+    "Value": 16800
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10540
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1348
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300103,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_solarflaret32_low",
+  "FullHurtPoint": 1182,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 23001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33013,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 13001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130006",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131006",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30006002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_solarflaret32_low",
+  "ShipSmallIcon": "80305",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30006001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_solarflaret32_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 3,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30006002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_SolarFlareT32",
+  "id": 2300103
+ },
+ "2300104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1854
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1800
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1764
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2800
+   },
+   "7": {
+    "Key": 112,
+    "Value": 900
+   },
+   "8": {
+    "Key": 105,
+    "Value": 16800
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10540
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1348
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300104,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_solarflaret32_low",
+  "FullHurtPoint": 1182,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 23001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33013,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 13001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130006",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131006",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30006002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_solarflaret32_low",
+  "ShipSmallIcon": "80305",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30006001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_solarflaret32_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 4,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30006002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_SolarFlareT32",
+  "id": 2300104
+ },
+ "2400101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2966
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2880
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2822
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400101,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 91307,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name15,20",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_beam_s",
+  "CannotTrainTipText": "20",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "20",
+  "DamageRatio": 10000,
+  "DamageType": 1,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 4,
+  "FormationShowResId": "ship_sunspotzu_low",
+  "FullHurtPoint": 1613,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 24001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33014,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 15480,
+  "PvpFullHurtPoint": 3225,
+  "RepairNeedResource": 14001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130009",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131009",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30009002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_sunspotzu_low",
+  "ShipSmallIcon": "80308",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30009001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_sunspotzu_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 1,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30009002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_SunspotZU",
+  "id": 2400101
+ },
+ "2400102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2966
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2880
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2822
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 3450
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1350
+   },
+   "8": {
+    "Key": 105,
+    "Value": 17700
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10810
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1672
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400102,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 1,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 4,
+  "FormationShowResId": "ship_sunspotzu_low",
+  "FullHurtPoint": 3225,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 24001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33014,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 14001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130009",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131009",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30009002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_sunspotzu_low",
+  "ShipSmallIcon": "80308",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30009001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_sunspotzu_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 2,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30009002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_SunspotZU",
+  "id": 2400102
+ },
+ "2400103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2966
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2880
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2822
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 3450
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1350
+   },
+   "8": {
+    "Key": 105,
+    "Value": 17700
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10810
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1672
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400103,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 1,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 4,
+  "FormationShowResId": "ship_sunspotzu_low",
+  "FullHurtPoint": 3225,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 24001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33014,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 14001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130009",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131009",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30009002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_sunspotzu_low",
+  "ShipSmallIcon": "80308",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30009001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_sunspotzu_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 3,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30009002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_SunspotZU",
+  "id": 2400103
+ },
+ "2400104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2966
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2880
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2822
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 3450
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1350
+   },
+   "8": {
+    "Key": 105,
+    "Value": 17700
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10810
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1672
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400104,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 1,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 4,
+  "FormationShowResId": "ship_sunspotzu_low",
+  "FullHurtPoint": 3225,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 24001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33014,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 14001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130009",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131009",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30009002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_sunspotzu_low",
+  "ShipSmallIcon": "80308",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30009001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_sunspotzu_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 4,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30009002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_SunspotZU",
+  "id": 2400104
+ },
+ "2500101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4295
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4170
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4086
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500101,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 91307,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name15,25",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_beam_s",
+  "CannotTrainTipText": "25",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "25",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_preparation_low",
+  "FullHurtPoint": 3136,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 25001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33015,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 30105,
+  "PvpFullHurtPoint": 6272,
+  "RepairNeedResource": 15001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_preparation",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_preparation_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_preparation_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_preparation_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_preparation",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_preparation_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_preparation_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 1,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_preparation_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Scarab",
+  "id": 2500101
+ },
+ "2500102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4295
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4170
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4086
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 4100
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1800
+   },
+   "8": {
+    "Key": 105,
+    "Value": 18600
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11080
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1996
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500102,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_preparation_low",
+  "FullHurtPoint": 6272,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 25001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33015,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 15001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_preparation",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_preparation_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_preparation_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_preparation_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_preparation",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_preparation_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_preparation_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 2,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_preparation_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Scarab",
+  "id": 2500102
+ },
+ "2500103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4295
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4170
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4086
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 4100
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1800
+   },
+   "8": {
+    "Key": 105,
+    "Value": 18600
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11080
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1996
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500103,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_preparation_low",
+  "FullHurtPoint": 6272,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 25001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33015,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 15001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_preparation",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_preparation_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_preparation_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_preparation_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_preparation",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_preparation_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_preparation_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 3,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_preparation_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Scarab",
+  "id": 2500103
+ },
+ "2500104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4295
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4170
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4086
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 4100
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1800
+   },
+   "8": {
+    "Key": 105,
+    "Value": 18600
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11080
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1996
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500104,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_preparation_low",
+  "FullHurtPoint": 6272,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 25001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33015,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 15001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_preparation",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_preparation_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_preparation_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_preparation_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_preparation",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_preparation_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_preparation_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 4,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_preparation_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Scarab",
+  "id": 2500104
+ },
+ "2600101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5582
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5420
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5311
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600101,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 91307,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name15,30",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_beam_s",
+  "CannotTrainTipText": "30",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "30",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_starfountan_low",
+  "FullHurtPoint": 6609,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 26001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33015,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 63446,
+  "PvpFullHurtPoint": 13218,
+  "RepairNeedResource": 16001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_starfountan",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_starfountan_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_starfountan_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_starfountan_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_starfountan",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_starfountan_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_starfountan_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 1,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_starfountan_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_StarFountan",
+  "id": 2600101
+ },
+ "2600102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5582
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5420
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5311
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 4750
+   },
+   "7": {
+    "Key": 112,
+    "Value": 2250
+   },
+   "8": {
+    "Key": 105,
+    "Value": 19500
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11350
+   },
+   "10": {
+    "Key": 101,
+    "Value": 2320
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600102,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_starfountan_low",
+  "FullHurtPoint": 13218,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 26001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33015,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 16001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_starfountan",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_starfountan_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_starfountan_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_starfountan_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_starfountan",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_starfountan_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_starfountan_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 2,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_starfountan_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_StarFountan",
+  "id": 2600102
+ },
+ "2600103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5582
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5420
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5311
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 4750
+   },
+   "7": {
+    "Key": 112,
+    "Value": 2250
+   },
+   "8": {
+    "Key": 105,
+    "Value": 19500
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11350
+   },
+   "10": {
+    "Key": 101,
+    "Value": 2320
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600103,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_starfountan_low",
+  "FullHurtPoint": 13218,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 26001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33015,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 16001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_starfountan",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_starfountan_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_starfountan_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_starfountan_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_starfountan",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_starfountan_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_starfountan_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 3,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_starfountan_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_StarFountan",
+  "id": 2600103
+ },
+ "2600104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5582
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5420
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5311
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 4750
+   },
+   "7": {
+    "Key": 112,
+    "Value": 2250
+   },
+   "8": {
+    "Key": 105,
+    "Value": 19500
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11350
+   },
+   "10": {
+    "Key": 101,
+    "Value": 2320
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600104,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 20000,
+  "DamageType": 1,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_starfountan_low",
+  "FullHurtPoint": 13218,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 26001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33015,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 16001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_starfountan",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_starfountan_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_starfountan_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300037,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_starfountan_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_starfountan",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_starfountan_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_starfountan_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 4,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_starfountan_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_StarFountan",
+  "id": 2600104
+ },
+ "2700101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 288000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 6695
+   },
+   "3": {
+    "Key": 20,
+    "Value": 6500
+   },
+   "4": {
+    "Key": 22,
+    "Value": 6370
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 45
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1700101,
+  "BuildTime": 103680000,
+  "CannotTrainGoTo": 91310,
+  "CannotTrainKey": "Train_ship_unlock_research",
+  "CannotTrainKeyParam": "Person_Craft_T7_Research_20_Name_1",
+  "CannotTrainTipIcon": "ui_icon_tech_research",
+  "CannotTrainTipText": "Train_Ship_Craft_Tech",
+  "CannotTrainUIKey": "Train_ship_unlock_research_ui",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 1,
+  "DeadPoint": 102600,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_arc_low",
+  "FullHurtPoint": 10688,
+  "GenresType": 3,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 27001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 120000,
+  "ProjectileId": 33017,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 102600,
+  "PvpFullHurtPoint": 21375,
+  "RepairNeedResource": 17001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_arc",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_arc_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_arc_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_arc_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_arc",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_arc_low_idle_01",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 106,
+  "ShowResId": "ship_arc_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000009
+  },
+  "SubTLevel": 1,
+  "TLevel": 7,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_arc_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Beam_T7",
+  "id": 2700101
+ },
+ "3100101": {
+  "Acceleration": 7,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 16000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 349
+   },
+   "3": {
+    "Key": 20,
+    "Value": 349
+   },
+   "4": {
+    "Key": 22,
+    "Value": 370
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 15
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1100101,
+  "BuildTime": 361000,
+  "CannotTrainGoTo": 91308,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name16,1",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ion_s",
+  "CannotTrainTipText": "1",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "1",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 763,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 14,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 1,
+  "FormationShowResId": "ship_double_edgedsword_low",
+  "FullHurtPoint": 80,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 31001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 2000,
+  "ProjectileId": 33006,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 763,
+  "PvpFullHurtPoint": 159,
+  "RepairNeedResource": 11001011,
+  "RotateSpeed": 400,
+  "ShipBigIcon": "130002",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131002",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30002002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300030,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_double_edgedsword_low",
+  "ShipSmallIcon": "80303",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30002001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_double_edgedsword_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 1,
+  "TLevel": 1,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30002002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 90,
+  "UnitName": "Ship_Double-edgedSword",
+  "id": 3100101
+ },
+ "3200101": {
+  "Acceleration": 7,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 40000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 873
+   },
+   "3": {
+    "Key": 20,
+    "Value": 873
+   },
+   "4": {
+    "Key": 22,
+    "Value": 927
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 20
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1200101,
+  "BuildTime": 3861000,
+  "CannotTrainGoTo": 91308,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name16,10",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ion_s",
+  "CannotTrainTipText": "10",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "10",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 2707,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 14,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 2,
+  "FormationShowResId": "ship_garrson_low",
+  "FullHurtPoint": 282,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 32001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 5000,
+  "ProjectileId": 33007,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 2707,
+  "PvpFullHurtPoint": 564,
+  "RepairNeedResource": 12001011,
+  "RotateSpeed": 350,
+  "ShipBigIcon": "ui_icon_spaceship_garrson",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_garrson_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_garrson_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300034,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_garrson_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_garrson",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_garrson_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_garrson_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 1,
+  "TLevel": 2,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_garrson_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 60,
+  "UnitName": "Ship_Garrson",
+  "id": 3200101
+ },
+ "3200102": {
+  "Acceleration": 7,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 40000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 873
+   },
+   "3": {
+    "Key": 20,
+    "Value": 873
+   },
+   "4": {
+    "Key": 22,
+    "Value": 927
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 1950
+   },
+   "7": {
+    "Key": 112,
+    "Value": 450
+   },
+   "8": {
+    "Key": 105,
+    "Value": 15900
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10270
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1024
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 20
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1200102,
+  "BuildTime": 3861000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 2707,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 14,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 2,
+  "FormationShowResId": "ship_garrson_low",
+  "FullHurtPoint": 564,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 32001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 5000,
+  "ProjectileId": 33007,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 12001021,
+  "RotateSpeed": 350,
+  "ShipBigIcon": "ui_icon_spaceship_garrson",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_garrson_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_garrson_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300034,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_garrson_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_garrson",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_garrson_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_garrson_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 2,
+  "TLevel": 2,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_garrson_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 60,
+  "UnitName": "Ship_Garrson",
+  "id": 3200102
+ },
+ "3200103": {
+  "Acceleration": 7,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 40000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 873
+   },
+   "3": {
+    "Key": 20,
+    "Value": 873
+   },
+   "4": {
+    "Key": 22,
+    "Value": 927
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 1950
+   },
+   "7": {
+    "Key": 112,
+    "Value": 450
+   },
+   "8": {
+    "Key": 105,
+    "Value": 15900
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10270
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1024
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 20
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1200103,
+  "BuildTime": 3861000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 2707,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 14,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 2,
+  "FormationShowResId": "ship_garrson_low",
+  "FullHurtPoint": 564,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 2,
+  "ModelType": 32001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 5000,
+  "ProjectileId": 33007,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 12001031,
+  "RotateSpeed": 350,
+  "ShipBigIcon": "ui_icon_spaceship_garrson",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_garrson_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_garrson_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300034,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_garrson_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_garrson",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_garrson_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_garrson_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 3,
+  "TLevel": 2,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_garrson_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 60,
+  "UnitName": "Ship_Garrson",
+  "id": 3200103
+ },
+ "3300101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1746
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1746
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1854
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300101,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 91308,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name16,15",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ion_s",
+  "CannotTrainTipText": "15",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "15",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_raven_low",
+  "FullHurtPoint": 591,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 33001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33008,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 5673,
+  "PvpFullHurtPoint": 1182,
+  "RepairNeedResource": 13001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130005",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131005",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30005002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_raven_low",
+  "ShipSmallIcon": "80306",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30005001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_raven_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 1,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30005002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Raven",
+  "id": 3300101
+ },
+ "3300102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1746
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1746
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1854
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2400
+   },
+   "7": {
+    "Key": 112,
+    "Value": 900
+   },
+   "8": {
+    "Key": 105,
+    "Value": 16800
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10540
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1348
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300102,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_raven_low",
+  "FullHurtPoint": 1182,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 33001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33008,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 13001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130005",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131005",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30005002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_raven_low",
+  "ShipSmallIcon": "80306",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30005001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_raven_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 2,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30005002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Raven",
+  "id": 3300102
+ },
+ "3300103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1746
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1746
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1854
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2400
+   },
+   "7": {
+    "Key": 112,
+    "Value": 900
+   },
+   "8": {
+    "Key": 105,
+    "Value": 16800
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10540
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1348
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300103,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_raven_low",
+  "FullHurtPoint": 1182,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 33001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33008,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 13001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130005",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131005",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30005002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_raven_low",
+  "ShipSmallIcon": "80306",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30005001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_raven_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 3,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30005002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Raven",
+  "id": 3300103
+ },
+ "3300104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 80000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 1746
+   },
+   "3": {
+    "Key": 20,
+    "Value": 1746
+   },
+   "4": {
+    "Key": 22,
+    "Value": 1854
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2400
+   },
+   "7": {
+    "Key": 112,
+    "Value": 900
+   },
+   "8": {
+    "Key": 105,
+    "Value": 16800
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10540
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1348
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 25
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1300104,
+  "BuildTime": 8226000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 5673,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_raven_low",
+  "FullHurtPoint": 1182,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 33001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 10000,
+  "ProjectileId": 33008,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 13001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130005",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131005",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30005002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_raven_low",
+  "ShipSmallIcon": "80306",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30005001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_raven_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 4,
+  "TLevel": 3,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30005002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Raven",
+  "id": 3300104
+ },
+ "3400101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2793
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2793
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2966
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400101,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 91308,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name16,20",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ion_s",
+  "CannotTrainTipText": "20",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "20",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_nyx96_low",
+  "FullHurtPoint": 1613,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 34001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33009,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 15480,
+  "PvpFullHurtPoint": 3225,
+  "RepairNeedResource": 14001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130008",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131008",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30008002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_nyx96_low",
+  "ShipSmallIcon": "80309",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30008001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_nyx96_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 1,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30008002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Nyx96",
+  "id": 3400101
+ },
+ "3400102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2793
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2793
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2966
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2850
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1350
+   },
+   "8": {
+    "Key": 105,
+    "Value": 17700
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10810
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1672
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400102,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_nyx96_low",
+  "FullHurtPoint": 3225,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 34001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33009,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 14001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130008",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131008",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30008002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_nyx96_low",
+  "ShipSmallIcon": "80309",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30008001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_nyx96_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 2,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30008002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Nyx96",
+  "id": 3400102
+ },
+ "3400103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2793
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2793
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2966
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2850
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1350
+   },
+   "8": {
+    "Key": 105,
+    "Value": 17700
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10810
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1672
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400103,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_nyx96_low",
+  "FullHurtPoint": 3225,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 34001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33009,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 14001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130008",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131008",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30008002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_nyx96_low",
+  "ShipSmallIcon": "80309",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30008001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_nyx96_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 3,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30008002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Nyx96",
+  "id": 3400103
+ },
+ "3400104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 128100
+   },
+   "2": {
+    "Key": 21,
+    "Value": 2793
+   },
+   "3": {
+    "Key": 20,
+    "Value": 2793
+   },
+   "4": {
+    "Key": 22,
+    "Value": 2966
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 2850
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1350
+   },
+   "8": {
+    "Key": 105,
+    "Value": 17700
+   },
+   "9": {
+    "Key": 113,
+    "Value": 10810
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1672
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 30
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1400104,
+  "BuildTime": 21420000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 15480,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 3,
+  "FormationShowResId": "ship_nyx96_low",
+  "FullHurtPoint": 3225,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 34001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 20000,
+  "ProjectileId": 33009,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 14001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "130008",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "131008",
+  "ShipJetEffect": {
+   "1": {
+    "1": 30008002,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_nyx96_low",
+  "ShipSmallIcon": "80309",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": 30008001,
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_nyx96_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 4,
+  "TLevel": 4,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": 30008002,
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Nyx96",
+  "id": 3400104
+ },
+ "3500101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4044
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4044
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4295
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500101,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 91308,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name16,25",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ion_s",
+  "CannotTrainTipText": "25",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "25",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_erebus67_low",
+  "FullHurtPoint": 3136,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 35001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33010,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 30105,
+  "PvpFullHurtPoint": 6272,
+  "RepairNeedResource": 15001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_erebus67",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_erebus67_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_erebus67_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_erebus67_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_erebus67",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_erebus67_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_erebus67_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 1,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_erebus67_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Erebus67",
+  "id": 3500101
+ },
+ "3500102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4044
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4044
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4295
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 3300
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1800
+   },
+   "8": {
+    "Key": 105,
+    "Value": 18600
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11080
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1996
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500102,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_erebus67_low",
+  "FullHurtPoint": 6272,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 35001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33010,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 15001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_erebus67",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_erebus67_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_erebus67_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_erebus67_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_erebus67",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_erebus67_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_erebus67_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 2,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_erebus67_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Erebus67",
+  "id": 3500102
+ },
+ "3500103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4044
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4044
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4295
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 3300
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1800
+   },
+   "8": {
+    "Key": 105,
+    "Value": 18600
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11080
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1996
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500103,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_erebus67_low",
+  "FullHurtPoint": 6272,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 35001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33010,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 15001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_erebus67",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_erebus67_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_erebus67_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_erebus67_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_erebus67",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_erebus67_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_erebus67_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 3,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_erebus67_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Erebus67",
+  "id": 3500103
+ },
+ "3500104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 185700
+   },
+   "2": {
+    "Key": 21,
+    "Value": 4044
+   },
+   "3": {
+    "Key": 20,
+    "Value": 4044
+   },
+   "4": {
+    "Key": 22,
+    "Value": 4295
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 3300
+   },
+   "7": {
+    "Key": 112,
+    "Value": 1800
+   },
+   "8": {
+    "Key": 105,
+    "Value": 18600
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11080
+   },
+   "10": {
+    "Key": 101,
+    "Value": 1996
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 35
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1500104,
+  "BuildTime": 36936000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 30105,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_erebus67_low",
+  "FullHurtPoint": 6272,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 35001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 50000,
+  "ProjectileId": 33010,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 15001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_erebus67",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_erebus67_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_erebus67_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_erebus67_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_erebus67",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_erebus67_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_erebus67_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 4,
+  "TLevel": 5,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_erebus67_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Erebus67",
+  "id": 3500104
+ },
+ "3600101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5257
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5257
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5582
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600101,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 91308,
+  "CannotTrainKey": "Train_ship_unlock",
+  "CannotTrainKeyParam": "ShipBuild_Room_Name16,30",
+  "CannotTrainTipIcon": "ui_city_icon_room_dockyard_ion_s",
+  "CannotTrainTipText": "30",
+  "CannotTrainUIKey": "Train_ship_unlock_buildinglevel",
+  "CannotTrainUIKeyParam": "30",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_judgment_low",
+  "FullHurtPoint": 6609,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 36001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33010,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 63446,
+  "PvpFullHurtPoint": 13218,
+  "RepairNeedResource": 16001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_judgment",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_judgment_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_judgment_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_judgment_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_judgment",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_judgment_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_judgment_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 1,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_judgment_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Judgment",
+  "id": 3600101
+ },
+ "3600102": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5257
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5257
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5582
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 3750
+   },
+   "7": {
+    "Key": 112,
+    "Value": 2250
+   },
+   "8": {
+    "Key": 105,
+    "Value": 19500
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11350
+   },
+   "10": {
+    "Key": 101,
+    "Value": 2320
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600102,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_judgment_low",
+  "FullHurtPoint": 13218,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 36001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33010,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 16001021,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_judgment",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_judgment_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_judgment_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_judgment_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_judgment",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_judgment_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_judgment_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 2,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_judgment_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Judgment",
+  "id": 3600102
+ },
+ "3600103": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5257
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5257
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5582
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 3750
+   },
+   "7": {
+    "Key": 112,
+    "Value": 2250
+   },
+   "8": {
+    "Key": 105,
+    "Value": 19500
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11350
+   },
+   "10": {
+    "Key": 101,
+    "Value": 2320
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600103,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_judgment_low",
+  "FullHurtPoint": 13218,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 36001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33010,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 16001031,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_judgment",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_judgment_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_judgment_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_judgment_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_judgment",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_judgment_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_judgment_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 3,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_judgment_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Judgment",
+  "id": 3600103
+ },
+ "3600104": {
+  "Acceleration": 5,
+  "AtkCD": 2000,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 241400
+   },
+   "2": {
+    "Key": 21,
+    "Value": 5257
+   },
+   "3": {
+    "Key": 20,
+    "Value": 5257
+   },
+   "4": {
+    "Key": 22,
+    "Value": 5582
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 3750
+   },
+   "7": {
+    "Key": 112,
+    "Value": 2250
+   },
+   "8": {
+    "Key": 105,
+    "Value": 19500
+   },
+   "9": {
+    "Key": 113,
+    "Value": 11350
+   },
+   "10": {
+    "Key": 101,
+    "Value": 2320
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 3500
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 70
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 40
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1600104,
+  "BuildTime": 62640000,
+  "CannotTrainGoTo": 0,
+  "CannotTrainKey": "",
+  "CannotTrainKeyParam": "",
+  "CannotTrainTipIcon": "",
+  "CannotTrainTipText": "",
+  "CannotTrainUIKey": "",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 9000,
+  "DamageType": 1,
+  "DeadPoint": 63446,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_judgment_low",
+  "FullHurtPoint": 13218,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 3,
+  "ModelType": 36001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Remake_01_Low_ShipController_OM",
+  "Power": 80000,
+  "ProjectileId": 33010,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 0,
+  "PvpFullHurtPoint": 0,
+  "RepairNeedResource": 16001041,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_judgment",
+  "ShipDesc": "ship_pp2_desc",
+  "ShipIcon": "ui_icon_item_spaceship_judgment_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_judgment_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300033,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_judgment_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_judgment",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_judgment_low_idle",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 0,
+  "ShowResId": "ship_judgment_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 4,
+  "TLevel": 6,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_judgment_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Judgment",
+  "id": 3600104
+ },
+ "3700101": {
+  "Acceleration": 5,
+  "AtkCD": 500,
+  "AtkDelay": 0,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 288000
+   },
+   "2": {
+    "Key": 21,
+    "Value": 6305
+   },
+   "3": {
+    "Key": 20,
+    "Value": 6305
+   },
+   "4": {
+    "Key": 22,
+    "Value": 6695
+   },
+   "5": {
+    "Key": 32,
+    "Value": 0
+   },
+   "6": {
+    "Key": 100,
+    "Value": 0
+   },
+   "7": {
+    "Key": 112,
+    "Value": 0
+   },
+   "8": {
+    "Key": 105,
+    "Value": 0
+   },
+   "9": {
+    "Key": 113,
+    "Value": 0
+   },
+   "10": {
+    "Key": 101,
+    "Value": 0
+   },
+   "11": {
+    "Key": 110,
+    "Value": 0
+   },
+   "12": {
+    "Key": 106,
+    "Value": 0
+   },
+   "13": {
+    "Key": 301,
+    "Value": 0
+   },
+   "14": {
+    "Key": 36,
+    "Value": 0
+   },
+   "15": {
+    "Key": 13,
+    "Value": 999999
+   },
+   "16": {
+    "Key": 40,
+    "Value": 45
+   }
+  },
+  "BubbleOffsetY": 0.5,
+  "BuildConsumeItem": 1700101,
+  "BuildTime": 103680000,
+  "CannotTrainGoTo": 91311,
+  "CannotTrainKey": "Train_ship_unlock_research",
+  "CannotTrainKeyParam": "Person_Craft_T7_Research_21_Name_1",
+  "CannotTrainTipIcon": "ui_icon_tech_research",
+  "CannotTrainTipText": "Train_Ship_Craft_Tech",
+  "CannotTrainUIKey": "Train_ship_unlock_research_ui",
+  "CannotTrainUIKeyParam": "",
+  "DamageRatio": 10000,
+  "DamageType": 1,
+  "DeadPoint": 102600,
+  "DeathAni": 0,
+  "DeathEff": "70009",
+  "DeathSound": "slg_ship_general_die",
+  "Deceleration": 10,
+  "DetialCamera": "Small_main",
+  "FightBackDamageRatio": 0,
+  "FireEff": "fx_ship_flash_01",
+  "FormationOrder": 5,
+  "FormationShowResId": "ship_tower_low",
+  "FullHurtPoint": 10688,
+  "GenresType": 2,
+  "GetwayDesc": "Obtained after completing the task",
+  "Manufacturer": 1,
+  "ModelType": 37001,
+  "NavigateSound": "slg_ship_travelling",
+  "OverrideController": "Ship_Particle_01_Low_ShipController_OM",
+  "Power": 120000,
+  "ProjectileId": 33019,
+  "ProjectileInterval": 0,
+  "PvpDeadPoint": 102600,
+  "PvpFullHurtPoint": 21375,
+  "RepairNeedResource": 17001011,
+  "RotateSpeed": 250,
+  "ShipBigIcon": "ui_icon_spaceship_tower",
+  "ShipDesc": "ship_G86-CM_desc",
+  "ShipIcon": "ui_icon_item_spaceship_tower_large",
+  "ShipJetEffect": {
+   "1": {
+    "1": "fx_ship_tower_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShipRefreshEffect": {
+   "1": {
+    "1": 3300031,
+    "2": "C_Root_01"
+   }
+  },
+  "ShipResource": "ship_tower_low",
+  "ShipSmallIcon": "ui_icon_item_spaceship_tower",
+  "ShipSpeedUpEffect": {
+   "1": {
+    "1": "fx_ship_tower_low_idle_01",
+    "2": "C_Trail_01"
+   }
+  },
+  "ShowCamera": "Small",
+  "ShowCondition": 106,
+  "ShowResId": "ship_tower_show",
+  "ShowResIdZoom": 1,
+  "SkillIdLiist": {
+   "1": 36000005
+  },
+  "SubTLevel": 1,
+  "TLevel": 7,
+  "TimeLineEffectTrail": {
+   "1": {
+    "1": "fx_ship_tower_low_trail",
+    "2": "C_Trail_01"
+   }
+  },
+  "TurnaroundSpeed": 45,
+  "UnitName": "Ship_Ion_T7",
+  "id": 3700101
+ }
+}

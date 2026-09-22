@@ -1,0 +1,2690 @@
+{
+ "10001": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000111,
+   "2": 1000121,
+   "3": 1000131
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100014
+  },
+  "GenresType": 1,
+  "GrowthID": 10001,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52501,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 2,
+  "HeroShard": {
+   "1": {
+    "1": 52501,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10001_Content_Name",
+  "OverrideController": "Tps_10001heroLani_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10001120
+  },
+  "QuickDeployItem": 52101,
+  "QuickDeployTag": 1,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100011,
+   "2": 1000111
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100012,
+   "2": 100013,
+   "3": 100014,
+   "4": 1000121,
+   "5": 1000131
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10001040,
+   "2": 10001010,
+   "3": 10001120
+  },
+  "Scale": 1,
+  "Skill1Id": 10001010,
+  "Skill2Id": 10001020,
+  "Skill3Id": 10001030,
+  "Skill4Id": 10001040,
+  "Status": 1,
+  "TalentID": 10001,
+  "UsingWeaponType": 1,
+  "WeaponId": 1000101,
+  "WwiseBank": {
+   "1": "tps_hero_10001",
+   "2": "vo_tps_10001"
+  },
+  "id": 10001
+ },
+ "10002": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000111,
+   "2": 1000121,
+   "3": 1000131
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100014
+  },
+  "GenresType": 1,
+  "GrowthID": 10002,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52502,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 2,
+  "HeroShard": {
+   "1": {
+    "1": 52502,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10002_Content_Name",
+  "OverrideController": "Tps_10001heroLani_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10000002,
+   "3": 10000001
+  },
+  "QuickDeployItem": 52102,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100011,
+   "2": 1000111
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100012,
+   "2": 100013,
+   "3": 100014,
+   "4": 1000121,
+   "5": 1000131
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10000002,
+   "2": 10000000,
+   "3": 10000001
+  },
+  "Scale": 1,
+  "Skill1Id": 10001010,
+  "Skill2Id": 10001020,
+  "Skill3Id": 10001030,
+  "Skill4Id": 10001040,
+  "Status": -1,
+  "TalentID": 10001,
+  "UsingWeaponType": 1,
+  "WeaponId": 11011,
+  "WwiseBank": {
+   "1": "tps_hero_10002",
+   "2": "vo_tps_10002"
+  },
+  "id": 10002
+ },
+ "10003": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000311,
+   "2": 1000321,
+   "3": 1000331
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100034
+  },
+  "GenresType": 2,
+  "GrowthID": 10003,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52503,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 2,
+  "HeroShard": {
+   "1": {
+    "1": 52503,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10003_Content_Name",
+  "OverrideController": "Tps_10003heroKama_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10003110
+  },
+  "QuickDeployItem": 52103,
+  "QuickDeployTag": 1,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100031,
+   "2": 1000311
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100032,
+   "2": 100033,
+   "3": 100034,
+   "4": 1000321,
+   "5": 1000331
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10003040,
+   "2": 10003010,
+   "3": 10003110
+  },
+  "Scale": 1,
+  "Skill1Id": 10003010,
+  "Skill2Id": 10003020,
+  "Skill3Id": 10003030,
+  "Skill4Id": 10003040,
+  "Status": 1,
+  "TalentID": 10003,
+  "UsingWeaponType": 4,
+  "WeaponId": 1000301,
+  "WwiseBank": {
+   "1": "tps_hero_10003",
+   "2": "vo_tps_10003"
+  },
+  "id": 10003
+ },
+ "10004": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 65000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000411,
+   "2": 1000421,
+   "3": 1000431
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100044
+  },
+  "GenresType": 1,
+  "GrowthID": 10004,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52504,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 2,
+  "HeroShard": {
+   "1": {
+    "1": 52504,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10004_Content_Name",
+  "OverrideController": "Tps_10004heroRyan_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10004110
+  },
+  "QuickDeployItem": 52104,
+  "QuickDeployTag": 1,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100041,
+   "2": 1000411
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100042,
+   "2": 100043,
+   "3": 100044,
+   "4": 1000421,
+   "5": 1000431
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10004020,
+   "2": 10004010,
+   "3": 10004110
+  },
+  "Scale": 1,
+  "Skill1Id": 10004010,
+  "Skill2Id": 10004040,
+  "Skill3Id": 10004030,
+  "Skill4Id": 10004020,
+  "Status": 1,
+  "TalentID": 10004,
+  "UsingWeaponType": 2,
+  "WeaponId": 1000401,
+  "WwiseBank": {
+   "1": "tps_hero_10004",
+   "2": "vo_tps_10004"
+  },
+  "id": 10004
+ },
+ "10005": {
+  "AtkRange": 3,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 150
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000511,
+   "2": 1000521,
+   "3": 1000531
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100054
+  },
+  "GenresType": 3,
+  "GrowthID": 10005,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52505,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 1,
+  "HeroQuality": 2,
+  "HeroShard": {
+   "1": {
+    "1": 52505,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 4,
+  "Mass": 1,
+  "NameCn": "Hero_10005_Content_Name",
+  "OverrideController": "Tps_10005HeroPullo_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10000002,
+   "3": 10005110
+  },
+  "QuickDeployItem": 52105,
+  "QuickDeployTag": 1,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100051,
+   "2": 1000511
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100052,
+   "2": 100053,
+   "3": 100054,
+   "4": 1000521,
+   "5": 1000531
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10005040,
+   "2": 10005010,
+   "3": 10005110
+  },
+  "Scale": 1,
+  "Skill1Id": 10005010,
+  "Skill2Id": 10005020,
+  "Skill3Id": 10005030,
+  "Skill4Id": 10005040,
+  "Status": 1,
+  "TalentID": 10005,
+  "UsingWeaponType": 3,
+  "WeaponId": 1000501,
+  "WwiseBank": {
+   "1": "tps_hero_10005",
+   "2": "vo_tps_10005"
+  },
+  "id": 10005
+ },
+ "10006": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000611,
+   "2": 1000621,
+   "3": 1000631
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100064
+  },
+  "GenresType": 3,
+  "GrowthID": 10006,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52506,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 2,
+  "HeroShard": {
+   "1": {
+    "1": 52506,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10006_Content_Name",
+  "OverrideController": "Tps_10006heroklara_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10006110,
+   "3": 10006120,
+   "4": 10006130
+  },
+  "QuickDeployItem": 52106,
+  "QuickDeployTag": 2,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100061,
+   "2": 1000611
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100062,
+   "2": 100063,
+   "3": 100064,
+   "4": 1000621,
+   "5": 1000631
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10006040,
+   "2": 10006010,
+   "3": 10006110
+  },
+  "Scale": 1,
+  "Skill1Id": 10006010,
+  "Skill2Id": 10006020,
+  "Skill3Id": 10006030,
+  "Skill4Id": 10006040,
+  "Status": 1,
+  "TalentID": 10006,
+  "UsingWeaponType": 2,
+  "WeaponId": 1000601,
+  "WwiseBank": {
+   "1": "tps_hero_10006",
+   "2": "vo_tps_10006"
+  },
+  "id": 10006
+ },
+ "10007": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000711,
+   "2": 1000721,
+   "3": 1000731
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100074
+  },
+  "GenresType": 2,
+  "GrowthID": 10007,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52507,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52507,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10007_Content_Name",
+  "OverrideController": "Tps_10007heroJodie_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10007110
+  },
+  "QuickDeployItem": 52107,
+  "QuickDeployTag": 3,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100071,
+   "2": 1000711
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100072,
+   "2": 100073,
+   "3": 100074,
+   "4": 1000721,
+   "5": 1000731
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10007040,
+   "2": 10007010,
+   "3": 10007110
+  },
+  "Scale": 1,
+  "Skill1Id": 10007010,
+  "Skill2Id": 10007020,
+  "Skill3Id": 10007030,
+  "Skill4Id": 10007040,
+  "Status": 1,
+  "TalentID": 10007,
+  "UsingWeaponType": 2,
+  "WeaponId": 1000701,
+  "WwiseBank": {
+   "1": "tps_hero_10007",
+   "2": "vo_tps_10007"
+  },
+  "id": 10007
+ },
+ "10008": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000811,
+   "2": 1000821,
+   "3": 1000831
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100084
+  },
+  "GenresType": 1,
+  "GrowthID": 10008,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52508,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52508,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10008_Content_Name",
+  "OverrideController": "Tps_10008heroZora_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10008110
+  },
+  "QuickDeployItem": 52108,
+  "QuickDeployTag": 1,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100081,
+   "2": 1000811
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100082,
+   "2": 100083,
+   "3": 100084,
+   "4": 1000821,
+   "5": 1000831
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10008020,
+   "2": 10008010,
+   "3": 10008110
+  },
+  "Scale": 1,
+  "Skill1Id": 10008010,
+  "Skill2Id": 10008040,
+  "Skill3Id": 10008030,
+  "Skill4Id": 10008020,
+  "Status": 1,
+  "TalentID": 10008,
+  "UsingWeaponType": 1,
+  "WeaponId": 1000801,
+  "WwiseBank": {
+   "1": "tps_hero_10008",
+   "2": "vo_tps_10008"
+  },
+  "id": 10008
+ },
+ "10009": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000911,
+   "2": 1000921,
+   "3": 1000931
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100094
+  },
+  "GenresType": 2,
+  "GrowthID": 10009,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52509,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 2,
+  "HeroShard": {
+   "1": {
+    "1": 52509,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10009_Content_Name",
+  "OverrideController": "Tps_10009heroPhade_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10009110
+  },
+  "QuickDeployItem": 52109,
+  "QuickDeployTag": 2,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100091,
+   "2": 1000911
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100092,
+   "2": 100093,
+   "3": 100094,
+   "4": 1000921,
+   "5": 1000931
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10009040,
+   "2": 10009010,
+   "3": 10009110
+  },
+  "Scale": 1,
+  "Skill1Id": 10009010,
+  "Skill2Id": 10009020,
+  "Skill3Id": 10009030,
+  "Skill4Id": 10009040,
+  "Status": 1,
+  "TalentID": 10009,
+  "UsingWeaponType": 1,
+  "WeaponId": 1000901,
+  "WwiseBank": {
+   "1": "tps_hero_10009",
+   "2": "vo_tps_10009"
+  },
+  "id": 10009
+ },
+ "10010": {
+  "AtkRange": 2,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1001011,
+   "2": 1001021,
+   "3": 1001031
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100104
+  },
+  "GenresType": 3,
+  "GrowthID": 10010,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52510,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 1,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52510,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 3,
+  "Mass": 1,
+  "NameCn": "Hero_10010_Content_Name",
+  "OverrideController": "Tps_10010herozephy_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10000002,
+   "3": 10010110
+  },
+  "QuickDeployItem": 52110,
+  "QuickDeployTag": 3,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100101,
+   "2": 1001011
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100102,
+   "2": 100103,
+   "3": 100104,
+   "4": 1001021,
+   "5": 1001031
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10010040,
+   "2": 10010010,
+   "3": 10010110
+  },
+  "Scale": 1,
+  "Skill1Id": 10010010,
+  "Skill2Id": 10010010,
+  "Skill3Id": 10010010,
+  "Skill4Id": 10010040,
+  "Status": 1,
+  "TalentID": 10010,
+  "UsingWeaponType": 4,
+  "WeaponId": 1001001,
+  "WwiseBank": {
+   "1": "tps_hero_10010",
+   "2": "vo_tps_10010"
+  },
+  "id": 10010
+ },
+ "10011": {
+  "AtkRange": 3,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 65000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1001111,
+   "2": 1001121,
+   "3": 1001131
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100114
+  },
+  "GenresType": 1,
+  "GrowthID": 10011,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52511,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 1,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52511,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 4,
+  "Mass": 1,
+  "NameCn": "Hero_10011_Content_Name",
+  "OverrideController": "Tps_10011heroRebecca_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10000002,
+   "3": 10011110,
+   "4": 10011041
+  },
+  "QuickDeployItem": 52111,
+  "QuickDeployTag": 3,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100111,
+   "2": 1001111
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100112,
+   "2": 100113,
+   "3": 100114,
+   "4": 1001121,
+   "5": 1001131
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10011040,
+   "2": 10011010,
+   "3": 10011110
+  },
+  "Scale": 1,
+  "Skill1Id": 10011010,
+  "Skill2Id": 10011020,
+  "Skill3Id": 10011030,
+  "Skill4Id": 10011040,
+  "Status": 1,
+  "TalentID": 10011,
+  "UsingWeaponType": 2,
+  "WeaponId": 1001101,
+  "WwiseBank": {
+   "1": "tps_hero_10011",
+   "2": "vo_tps_10011"
+  },
+  "id": 10011
+ },
+ "10012": {
+  "AtkRange": 2,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1001211,
+   "2": 1001221,
+   "3": 1001231
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100124
+  },
+  "GenresType": 1,
+  "GrowthID": 10012,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52512,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 1,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52512,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 3,
+  "Mass": 1,
+  "NameCn": "Hero_10012_Content_Name",
+  "OverrideController": "Tps_10012heroKaren_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10000002,
+   "3": 10012110
+  },
+  "QuickDeployItem": 52112,
+  "QuickDeployTag": 2,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100121,
+   "2": 1001211
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100122,
+   "2": 100123,
+   "3": 100124,
+   "4": 1001221,
+   "5": 1001231
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10012020,
+   "2": 10012010,
+   "3": 10012110
+  },
+  "Scale": 1,
+  "Skill1Id": 10012010,
+  "Skill2Id": 10012040,
+  "Skill3Id": 10012030,
+  "Skill4Id": 10012020,
+  "Status": 1,
+  "TalentID": 10012,
+  "UsingWeaponType": 3,
+  "WeaponId": 1001201,
+  "WwiseBank": {
+   "1": "tps_hero_10012",
+   "2": "vo_tps_10012"
+  },
+  "id": 10012
+ },
+ "10014": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1001211,
+   "2": 1001221,
+   "3": 1001231
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100124
+  },
+  "GenresType": 3,
+  "GrowthID": 10012,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52512,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52512,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10014_Content_Name",
+  "OverrideController": "Tps_10014heroManuela_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10000002,
+   "3": 10012110
+  },
+  "QuickDeployItem": 52114,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100121,
+   "2": 1001211
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100122,
+   "2": 100123,
+   "3": 100124,
+   "4": 1001221,
+   "5": 1001231
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10012020,
+   "2": 10012010,
+   "3": 10012110
+  },
+  "Scale": 1,
+  "Skill1Id": 10012010,
+  "Skill2Id": 10012040,
+  "Skill3Id": 10012030,
+  "Skill4Id": 10012020,
+  "Status": -1,
+  "TalentID": 10014,
+  "UsingWeaponType": 2,
+  "WeaponId": 1001201,
+  "WwiseBank": {
+   "1": "tps_hero_10014",
+   "2": "vo_tps_10014"
+  },
+  "id": 10014
+ },
+ "10016": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1001611,
+   "2": 1001621,
+   "3": 1001631
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100164
+  },
+  "GenresType": 2,
+  "GrowthID": 10016,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52516,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52516,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10016_Content_Name",
+  "OverrideController": "Tps_10016heroGaruda_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10016110
+  },
+  "QuickDeployItem": 52116,
+  "QuickDeployTag": 2,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100161,
+   "2": 1001611
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100162,
+   "2": 100163,
+   "3": 100164,
+   "4": 1001621,
+   "5": 1001631
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10016040,
+   "2": 10016010,
+   "3": 10016110
+  },
+  "Scale": 1,
+  "Skill1Id": 10016010,
+  "Skill2Id": 10016020,
+  "Skill3Id": 10016030,
+  "Skill4Id": 10016040,
+  "Status": 77,
+  "TalentID": 10016,
+  "UsingWeaponType": 3,
+  "WeaponId": 1001601,
+  "WwiseBank": {
+   "1": "tps_hero_10016",
+   "2": "vo_tps_10016"
+  },
+  "id": 10016
+ },
+ "10017": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000111,
+   "2": 1000121,
+   "3": 1000131
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100014
+  },
+  "GenresType": 2,
+  "GrowthID": 10017,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52517,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 2,
+  "HeroShard": {
+   "1": {
+    "1": 52517,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "10017",
+  "OverrideController": "Tps_10017heroRemy_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10000002,
+   "3": 10017110
+  },
+  "QuickDeployItem": 52117,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100011,
+   "2": 1000111
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100012,
+   "2": 100013,
+   "3": 100014,
+   "4": 1000121,
+   "5": 1000131
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10003040,
+   "2": 10017010,
+   "3": 10017110
+  },
+  "Scale": 1,
+  "Skill1Id": 10017010,
+  "Skill2Id": 10017020,
+  "Skill3Id": 10017030,
+  "Skill4Id": 10003040,
+  "Status": -1,
+  "TalentID": 10017,
+  "UsingWeaponType": 4,
+  "WeaponId": 1001701,
+  "WwiseBank": {
+   "1": "tps_hero_10017",
+   "2": "vo_tps_10017"
+  },
+  "id": 10017
+ },
+ "10018": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 65000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1001811,
+   "2": 1001821,
+   "3": 1001831
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100184
+  },
+  "GenresType": 1,
+  "GrowthID": 10019,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52518,
+    "2": 40
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52518,
+    "2": 40
+   }
+  },
+  "HeroTier": 5,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10018_Content_Name",
+  "OverrideController": "Tps_10018heroKillerBee_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10018110
+  },
+  "QuickDeployItem": 52118,
+  "QuickDeployTag": 3,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100181,
+   "2": 1001811
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100182,
+   "2": 100183,
+   "3": 100184,
+   "4": 1001821,
+   "5": 1001831
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10018040,
+   "2": 10018010,
+   "3": 10018110
+  },
+  "Scale": 1,
+  "Skill1Id": 10018010,
+  "Skill2Id": 10019020,
+  "Skill3Id": 10019030,
+  "Skill4Id": 10018040,
+  "Status": 77,
+  "TalentID": 10018,
+  "UsingWeaponType": 3,
+  "WeaponId": 1001801,
+  "WwiseBank": {
+   "1": "tps_hero_10018",
+   "2": "vo_tps_10018"
+  },
+  "id": 10018
+ },
+ "10019": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 65000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1001911,
+   "2": 1001921,
+   "3": 1001931
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100194
+  },
+  "GenresType": 3,
+  "GrowthID": 10019,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52519,
+    "2": 40
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52519,
+    "2": 40
+   }
+  },
+  "HeroTier": 5,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10019_Content_Name",
+  "OverrideController": "Tps_10019heroEvan_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10000002,
+   "3": 10019110,
+   "4": 10019021
+  },
+  "QuickDeployItem": 52119,
+  "QuickDeployTag": 1,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100191,
+   "2": 1001911
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100192,
+   "2": 100193,
+   "3": 100194,
+   "4": 1001921,
+   "5": 1001931
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10019040,
+   "2": 10019010,
+   "3": 10019110
+  },
+  "Scale": 1,
+  "Skill1Id": 10019010,
+  "Skill2Id": 10019020,
+  "Skill3Id": 10019030,
+  "Skill4Id": 10019040,
+  "Status": 1,
+  "TalentID": 10019,
+  "UsingWeaponType": 2,
+  "WeaponId": 1001901,
+  "WwiseBank": {
+   "1": "tps_hero_10019",
+   "2": "vo_tps_10019"
+  },
+  "id": 10019
+ },
+ "10022": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1002211,
+   "2": 1002221,
+   "3": 1002231
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100224
+  },
+  "GenresType": 2,
+  "GrowthID": 10022,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52522,
+    "2": 40
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52522,
+    "2": 40
+   }
+  },
+  "HeroTier": 5,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10022_Content_Name",
+  "OverrideController": "Tps_10022heroLily_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10022110
+  },
+  "QuickDeployItem": 52122,
+  "QuickDeployTag": 1,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100221,
+   "2": 1002211
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100222,
+   "2": 100223,
+   "3": 100224,
+   "4": 1002221,
+   "5": 1002231
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10022040,
+   "2": 10022010,
+   "3": 10022110
+  },
+  "Scale": 1,
+  "Skill1Id": 10022010,
+  "Skill2Id": 10022020,
+  "Skill3Id": 10022030,
+  "Skill4Id": 10022040,
+  "Status": 1,
+  "TalentID": 10022,
+  "UsingWeaponType": 2,
+  "WeaponId": 1002201,
+  "WwiseBank": {
+   "1": "tps_hero_10022",
+   "2": "vo_tps_10022"
+  },
+  "id": 10022
+ },
+ "10023": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1002311,
+   "2": 1002321,
+   "3": 1002331
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100234
+  },
+  "GenresType": 3,
+  "GrowthID": 10012,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52523,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52523,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "Hero_10023_Content_Name",
+  "OverrideController": "Tps_10023heroDoug_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10023110
+  },
+  "QuickDeployItem": 52123,
+  "QuickDeployTag": 2,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100231,
+   "2": 1002311
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100232,
+   "2": 100233,
+   "3": 100234,
+   "4": 1002321,
+   "5": 1002331
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10023040,
+   "2": 10023010,
+   "3": 10023110
+  },
+  "Scale": 1,
+  "Skill1Id": 10023010,
+  "Skill2Id": 10023020,
+  "Skill3Id": 10023030,
+  "Skill4Id": 10023040,
+  "Status": 1,
+  "TalentID": 10023,
+  "UsingWeaponType": 1,
+  "WeaponId": 1002301,
+  "WwiseBank": {
+   "1": "tps_hero_10023",
+   "2": "vo_tps_10023"
+  },
+  "id": 10023
+ },
+ "10025": {
+  "AtkRange": 10,
+  "Attrs": {
+   "1": {
+    "Key": 10,
+    "Value": 0
+   },
+   "2": {
+    "Key": 20,
+    "Value": 0
+   },
+   "3": {
+    "Key": 21,
+    "Value": 0
+   },
+   "4": {
+    "Key": 4,
+    "Value": 0
+   },
+   "5": {
+    "Key": 100,
+    "Value": 1000
+   },
+   "6": {
+    "Key": 105,
+    "Value": 15000
+   },
+   "7": {
+    "Key": 32,
+    "Value": 60000
+   },
+   "8": {
+    "Key": 12,
+    "Value": 1000
+   },
+   "9": {
+    "Key": 202,
+    "Value": 20000
+   },
+   "10": {
+    "Key": 22,
+    "Value": 0
+   },
+   "11": {
+    "Key": 15,
+    "Value": 100
+   },
+   "12": {
+    "Key": 203,
+    "Value": 200000
+   }
+  },
+  "AwakeSkillId": {
+   "1": 1000111,
+   "2": 1000121,
+   "3": 1000131
+  },
+  "BaseRotationSpeed": 1080,
+  "CCcenter": {
+   "1": 0,
+   "2": 1.2,
+   "3": 0
+  },
+  "CCheight": 2.4,
+  "CCminMoveDistance": 0.001,
+  "CCradius": 0.5,
+  "CCskinWidth": 0.01,
+  "CCslopeLimit": 60,
+  "CCstepOffset": 1,
+  "ExtroSkillId": {
+   "1": 100014
+  },
+  "GenresType": 3,
+  "GrowthID": 10010,
+  "HeroCRAFT": {
+   "1": {
+    "1": 52525,
+    "2": 10
+   }
+  },
+  "HeroDisTag": 0,
+  "HeroQuality": 3,
+  "HeroShard": {
+   "1": {
+    "1": 52525,
+    "2": 10
+   }
+  },
+  "HeroTier": 0,
+  "LockRange": 10,
+  "LockRangeTD": 10,
+  "Mass": 1,
+  "NameCn": "10025",
+  "OverrideController": "Tps_10005HeroPullo_NewManController_OM",
+  "PassiveSkillId": {
+   "1": 10000000,
+   "2": 10025110
+  },
+  "QuickDeployItem": 52125,
+  "QuickTurnRotationTime": 0.03,
+  "QuickTurnStopMoveTime": 0.15,
+  "SLGActiveSkillId": {
+   "1": 100011,
+   "2": 1000111
+  },
+  "SLGExtraPassiveSkillId": {},
+  "SLGPassiveSkillId": {
+   "1": 100012,
+   "2": 100013,
+   "3": 100014,
+   "4": 1000121,
+   "5": 1000131
+  },
+  "SLGShowsTPSSkillId": {
+   "1": 10025040,
+   "2": 10025010,
+   "3": 10025110
+  },
+  "Scale": 1,
+  "Skill1Id": 10025010,
+  "Skill2Id": 10025020,
+  "Skill3Id": 10025030,
+  "Skill4Id": 10025040,
+  "Status": -1,
+  "TalentID": 10025,
+  "UsingWeaponType": 1,
+  "WeaponId": 1002501,
+  "WwiseBank": {
+   "1": "tps_hero_10025",
+   "2": "vo_tps_10025"
+  },
+  "id": 10025
+ }
+}

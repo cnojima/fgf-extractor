@@ -1,0 +1,1718 @@
+﻿INFO  Using log config file: jar:file:/C:/Users/cnoji/dev/fgf-watcher/keyrecovery/tools/ghidra_12.1.3_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (492 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (1551 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: c:\Users\cnoji\dev\fgf-watcher\keyrecovery\ghidra_project\xlua_analysis (HeadlessAnalyzer)  
+INFO  Opening project: c:\Users\cnoji\dev\fgf-watcher\keyrecovery\ghidra_project\xlua_analysis (HeadlessProject)  
+INFO  REPORT: Processing project file: /xlua.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompileBddFmt.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\cnoji\dev\fgf-watcher\keyrecovery\ghidra_scripts\DecompileBddFmt.java (HeadlessAnalyzer)  
+INFO  DecompileBddFmt.java> 
+
+===== FMT FUN_180079290 @ 180079290 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_180079290(undefined8 param_1)
+
+{
+  undefined1 *_Dst;
+  size_t _Size;
+  void *pvVar1;
+  longlong lVar2;
+  int iVar3;
+  undefined4 uVar4;
+  undefined8 uVar5;
+  undefined8 *_Src;
+  void *pvVar6;
+  undefined1 *puVar7;
+  undefined1 auStack_88 [32];
+  size_t local_68;
+  undefined8 local_58;
+  undefined1 local_50;
+  undefined7 uStack_4f;
+  longlong local_40;
+  ulonglong uStack_38;
+  void *local_30 [3];
+  ulonglong local_18;
+  ulonglong local_10;
+  
+  local_58 = 0xfffffffffffffffe;
+  local_10 = DAT_18045bc88 ^ (ulonglong)auStack_88;
+  iVar3 = lua_gettop();
+  if (iVar3 < 1) {
+    uVar4 = lua_gettop();
+    luaL_error(param_1,"invalid argument count expect %d args, actually %d",1,uVar4);
+    uVar5 = 0;
+  }
+  else {
+    uVar5 = luaL_checklstring(param_1,1);
+    iVar3 = FUN_18007de00(DAT_180482528,uVar5);
+    if (iVar3 < 0) {
+      local_40 = _DAT_18033da80;
+      uStack_38 = _UNK_18033da88;
+      local_50 = 0;
+      FUN_180050c80(&local_50,"bin design data init failed, error num = ",0x29);
+      _Src = (undefined8 *)FUN_180079ed0(local_30,iVar3);
+      lVar2 = local_40;
+      _Size = _Src[2];
+      if (0xf < (ulonglong)_Src[3]) {
+        _Src = (undefined8 *)*_Src;
+      }
+      if (uStack_38 - local_40 < _Size) {
+        local_68 = _Size;
+        FUN_18004ca50(&local_50,_Size,0);
+      }
+      else {
+        puVar7 = &local_50;
+        if (0xf < uStack_38) {
+          puVar7 = (undefined1 *)CONCAT71(uStack_4f,local_50);
+        }
+        _Dst = puVar7 + local_40;
+        local_40 = local_40 + _Size;
+        memmove(_Dst,_Src,_Size);
+        puVar7[lVar2 + _Size] = 0;
+      }
+      if (0xf < local_18) {
+        pvVar6 = local_30[0];
+        if ((0xfff < local_18 + 1) &&
+           (pvVar6 = *(void **)((longlong)local_30[0] + -8),
+           0x1f < (ulonglong)((longlong)local_30[0] + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar6);
+      }
+      puVar7 = &local_50;
+      if (0xf < uStack_38) {
+        puVar7 = (undefined1 *)CONCAT71(uStack_4f,local_50);
+      }
+      lua_pushstring(param_1,puVar7);
+      lua_error(param_1);
+      if (0xf < uStack_38) {
+        pvVar1 = (void *)CONCAT71(uStack_4f,local_50);
+        pvVar6 = pvVar1;
+        if ((0xfff < uStack_38 + 1) &&
+           (pvVar6 = *(void **)((longlong)pvVar1 + -8),
+           0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+          _invalid_parameter_noinfo_noreturn();
+        }
+        free(pvVar6);
+      }
+    }
+    uVar5 = 1;
+  }
+  return uVar5;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== FMT FUN_180079530 @ 180079530 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_180079530(undefined8 param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  undefined4 *puVar3;
+  undefined8 uVar4;
+  
+  iVar1 = lua_gettop();
+  if (iVar1 < 2) {
+    uVar2 = lua_gettop();
+    luaL_error(param_1,"invalid argument count expect %d args, actually %d",2,uVar2);
+    return 0;
+  }
+  puVar3 = (undefined4 *)lua_touserdata(param_1,1);
+  if (puVar3 == (undefined4 *)0x0) {
+    luaL_argerror(param_1,1,"expect userdata");
+    return 0;
+  }
+  uVar2 = *puVar3;
+  _DAT_180454460 = luaL_checknumber(param_1,2);
+  _DAT_180454458 = 0;
+  iVar1 = FUN_18007e320(DAT_180482528,uVar2,&DAT_180454458);
+  if (iVar1 < 0) {
+    lua_pushstring(param_1,"invalid key to bddnext!");
+    lua_error(param_1);
+  }
+  uVar4 = FUN_18007f7e0(param_1,&DAT_180454458);
+  return uVar4;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== FMT FUN_180078af0 @ 180078af0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+undefined8 FUN_180078af0(undefined8 param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  undefined4 *puVar3;
+  char *pcVar4;
+  double dVar5;
+  
+  iVar1 = lua_gettop();
+  if (iVar1 < 1) {
+    uVar2 = lua_gettop();
+    luaL_error(param_1,"invalid argument count expect %d args, actually %d",1,uVar2);
+    return 0;
+  }
+  dVar5 = (double)luaL_checknumber(param_1,1);
+  puVar3 = (undefined4 *)lua_newuserdata(param_1,4);
+  *puVar3 = (int)(longlong)dVar5;
+  FUN_18007db60(DAT_180482528,(longlong)dVar5 & 0xffffffff,&DAT_180454448);
+  if (DAT_180454448 == 4) {
+    pcVar4 = "__BDD_metatable";
+  }
+  else {
+    pcVar4 = DAT_180454450;
+    if (DAT_180454448 != 1) {
+      lua_pushstring(param_1,"invalid metatype");
+      lua_error(param_1);
+      return 1;
+    }
+  }
+  lua_getfield(param_1,0xffffd8ee,pcVar4);
+  lua_setmetatable(param_1,0xfffffffe);
+  return 1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== FMT FUN_180078c80 @ 180078c80 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_180078c80(undefined8 param_1)
+
+{
+  size_t _Size;
+  void *pvVar1;
+  int iVar2;
+  undefined4 uVar3;
+  undefined4 *puVar4;
+  undefined8 *_Src;
+  undefined8 uVar5;
+  void *pvVar6;
+  undefined1 *puVar7;
+  longlong lVar8;
+  double dVar9;
+  undefined1 auStack_98 [32];
+  size_t local_78;
+  undefined8 local_68;
+  undefined1 local_60;
+  undefined7 uStack_5f;
+  longlong local_50;
+  ulonglong uStack_48;
+  void *local_40 [3];
+  ulonglong local_28;
+  ulonglong local_20;
+  
+  local_68 = 0xfffffffffffffffe;
+  local_20 = DAT_18045bc88 ^ (ulonglong)auStack_98;
+  iVar2 = lua_gettop();
+  if (iVar2 < 2) {
+    uVar3 = lua_gettop();
+    luaL_error(param_1,"invalid argument count expect %d args, actually %d",2,uVar3);
+    return 0;
+  }
+  puVar4 = (undefined4 *)lua_touserdata(param_1,1);
+  if (puVar4 == (undefined4 *)0x0) {
+    luaL_argerror(param_1,1,"expect userdata");
+    return 0;
+  }
+  uVar3 = *puVar4;
+  dVar9 = (double)luaL_checknumber(param_1,2);
+  iVar2 = (int)dVar9;
+  if (iVar2 < 0) {
+LAB_180078d53:
+    lVar8 = -1;
+  }
+  else {
+    if ((ulonglong)
+        (*(longlong *)(DAT_180482528 + 0x40188) - *(longlong *)(DAT_180482528 + 0x40180) >> 3) <=
+        (ulonglong)(longlong)iVar2) goto LAB_180078d53;
+    lVar8 = *(longlong *)(*(longlong *)(DAT_180482528 + 0x40180) + (longlong)iVar2 * 8);
+    if (lVar8 != -1) goto LAB_180078e9e;
+  }
+  local_50 = _DAT_18033da80;
+  uStack_48 = _UNK_18033da88;
+  local_60 = 0;
+  FUN_180050c80(&local_60,"bdd_get_value_by_str_addr_key error: not found key with idx ",0x3c);
+  _Src = (undefined8 *)FUN_180079ed0(local_40,iVar2);
+  _Size = _Src[2];
+  if (0xf < (ulonglong)_Src[3]) {
+    _Src = (undefined8 *)*_Src;
+  }
+  if (uStack_48 - local_50 < _Size) {
+    local_78 = _Size;
+    FUN_18004ca50(&local_60,_Size,0);
+  }
+  else {
+    puVar7 = &local_60;
+    if (0xf < uStack_48) {
+      puVar7 = (undefined1 *)CONCAT71(uStack_5f,local_60);
+    }
+    puVar7 = puVar7 + local_50;
+    local_50 = local_50 + _Size;
+    memmove(puVar7,_Src,_Size);
+    puVar7[_Size] = 0;
+  }
+  if (0xf < local_28) {
+    pvVar6 = local_40[0];
+    if ((0xfff < local_28 + 1) &&
+       (pvVar6 = *(void **)((longlong)local_40[0] + -8),
+       0x1f < (ulonglong)((longlong)local_40[0] + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar6);
+  }
+  puVar7 = &local_60;
+  if (0xf < uStack_48) {
+    puVar7 = (undefined1 *)CONCAT71(uStack_5f,local_60);
+  }
+  lua_pushstring(param_1,puVar7);
+  lua_error(param_1);
+  if (0xf < uStack_48) {
+    pvVar1 = (void *)CONCAT71(uStack_5f,local_60);
+    pvVar6 = pvVar1;
+    if ((0xfff < uStack_48 + 1) &&
+       (pvVar6 = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)pvVar6)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar6);
+  }
+LAB_180078e9e:
+  FUN_18007ef40(DAT_180482528,uVar3,lVar8,&DAT_180454448);
+  uVar5 = FUN_18007f960(param_1,&DAT_180454448);
+  return uVar5;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== FMT FUN_18007f620 @ 18007f620 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+undefined8 FUN_18007f620(undefined8 param_1,int param_2,double param_3,int *param_4)
+
+{
+  int iVar1;
+  byte bVar2;
+  code *pcVar3;
+  ulonglong uVar4;
+  double dVar5;
+  int iVar6;
+  int iVar7;
+  double dVar8;
+  uint uVar9;
+  
+  dVar5 = DAT_18033e3e0;
+  iVar7 = 0;
+  bVar2 = *(byte *)((ulonglong)(param_2 + 4) + *DAT_180482528);
+  pcVar3 = (code *)(&PTR_LAB_180454488)[bVar2];
+  bVar2 = (&DAT_180454478)[bVar2];
+  iVar6 = *(int *)((ulonglong)(param_2 + 9) + *DAT_180482528) + -1;
+  if (-1 < iVar6) {
+    uVar9 = (uint)DAT_180338870;
+    uVar4 = (ulonglong)DAT_180338870 >> 0x20;
+    do {
+      iVar1 = iVar7 + (iVar6 - iVar7) / 2;
+      dVar8 = (double)(*pcVar3)((uint)bVar2 * iVar1 + param_2 + 0xd);
+      if ((double)CONCAT44((uint)((ulonglong)(param_3 - dVar8) >> 0x20) & (uint)uVar4,
+                           SUB84(param_3 - dVar8,0) & uVar9) < dVar5) {
+        *param_4 = iVar1 + 1;
+        return 0;
+      }
+      if (dVar8 <= param_3) {
+        iVar7 = iVar1 + 1;
+      }
+      else {
+        iVar6 = iVar1 + -1;
+      }
+    } while (iVar7 <= iVar6);
+  }
+  *param_4 = 0;
+  return 0;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== FMT FUN_18007f410 @ 18007f410 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+undefined8
+FUN_18007f410(undefined8 param_1,int param_2,int param_3,int param_4,uint param_5,
+             undefined4 *param_6)
+
+{
+  byte bVar1;
+  longlong lVar2;
+  int iVar3;
+  uint uVar4;
+  uint uVar5;
+  ulonglong uVar6;
+  undefined8 uVar7;
+  
+  lVar2 = *DAT_180482528;
+  bVar1 = *(byte *)((ulonglong)param_5 + lVar2);
+  uVar5 = param_5 + 1 + (uint)(byte)(&DAT_180454478)[bVar1] * (param_3 + -1);
+  uVar6 = (ulonglong)uVar5;
+  if (bVar1 == 1) {
+    uVar4 = (uint)*(byte *)(uVar6 + lVar2);
+  }
+  else if (bVar1 == 3) {
+    uVar4 = (uint)*(ushort *)(uVar6 + lVar2);
+  }
+  else {
+    if (bVar1 != 5) {
+      return 0xffffffff;
+    }
+    uVar4 = *(uint *)(uVar6 + lVar2);
+  }
+  iVar3 = param_4 + -100;
+  if (param_4 < 100) {
+    iVar3 = param_4;
+  }
+  uVar5 = uVar5 - uVar4;
+  if (param_4 < 100) {
+    uVar5 = uVar4 + param_2;
+  }
+  uVar6 = (ulonglong)uVar5;
+  if (iVar3 < 7) {
+    *param_6 = 0;
+    uVar7 = (*(code *)(&PTR_LAB_180454488)[iVar3])(uVar6);
+    *(undefined8 *)(param_6 + 2) = uVar7;
+    return 0;
+  }
+  if (iVar3 == 7) {
+    *param_6 = 1;
+    *(ulonglong *)(param_6 + 2) = (ulonglong)*(uint *)(uVar6 + *DAT_180482528) + *DAT_180482528;
+    return 0;
+  }
+  if (iVar3 != 9) {
+    if (iVar3 != 8) {
+      return 0xffffffff;
+    }
+    *param_6 = 2;
+    param_6[2] = *(undefined4 *)(uVar6 + *DAT_180482528);
+    *(undefined1 *)(param_6 + 3) = 0;
+    return 0;
+  }
+  *param_6 = 3;
+  *(bool *)(param_6 + 2) = *(char *)(uVar6 + *DAT_180482528) == '\x01';
+  return 0;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== FMT FUN_18007fb60 @ 18007fb60 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+ulonglong FUN_18007fb60(longlong param_1,undefined8 param_2)
+
+{
+  longlong lVar1;
+  undefined8 *puVar2;
+  longlong lVar3;
+  undefined8 uVar4;
+  ulonglong uVar5;
+  longlong *local_res8;
+  undefined8 local_res10;
+  undefined8 *local_res18 [2];
+  longlong *local_38 [2];
+  
+  lVar1 = param_1 + 0x40198;
+  local_res10 = param_2;
+  FUN_180079dc0(lVar1,&local_res8,&local_res10);
+  if (local_res8 != *(longlong **)(param_1 + 0x401a0)) {
+    return (ulonglong)*(uint *)(local_res8 + 3);
+  }
+  puVar2 = *(undefined8 **)(param_1 + 0x40188);
+  uVar5 = (longlong)puVar2 - *(longlong *)(param_1 + 0x40180) >> 3;
+  if (*(undefined8 **)(param_1 + 0x40190) == puVar2) {
+    FUN_18006fb50((longlong *)(param_1 + 0x40180),puVar2,&local_res10);
+  }
+  else {
+    *puVar2 = param_2;
+    *(longlong *)(param_1 + 0x40188) = *(longlong *)(param_1 + 0x40188) + 8;
+  }
+  FUN_180079dc0(lVar1,&local_res8,&local_res10);
+  if (local_res8 == *(longlong **)(param_1 + 0x401a0)) {
+    lVar3 = **(longlong **)(param_1 + 0x401a0);
+    local_res18[0] = &local_res10;
+    puVar2 = *(undefined8 **)(lVar3 + 8);
+    uVar4 = FUN_180048320(param_1 + 0x401a0,lVar3,puVar2,&DAT_18033c84a,local_res18,&local_res8);
+    if (*(longlong *)(param_1 + 0x401a8) == 0x7fffffffffffffe) {
+                    /* WARNING: Subroutine does not return */
+      std::_Xlength_error("list<T> too long");
+    }
+    *(longlong *)(param_1 + 0x401a8) = *(longlong *)(param_1 + 0x401a8) + 1;
+    *(undefined8 *)(lVar3 + 8) = uVar4;
+    *puVar2 = uVar4;
+    FUN_180049690(lVar1,local_38,**(longlong **)(param_1 + 0x401a0) + 0x10);
+    local_res8 = local_38[0];
+  }
+  *(int *)(local_res8 + 3) = (int)uVar5;
+  return uVar5 & 0xffffffff;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== FMT FUN_18007c300 @ 18007c300 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+ulonglong FUN_18007c300(longlong param_1,double *param_2)
+
+{
+  double local_res8;
+  
+  local_res8 = *param_2;
+  if (local_res8 == 0.0) {
+    local_res8 = 0.0;
+  }
+  return *(ulonglong *)(param_1 + 0x30) &
+         (((((((((ulonglong)local_res8 & 0xff ^ 0xcbf29ce484222325) * 0x100000001b3 ^
+               (ulonglong)local_res8 >> 8 & 0xff) * 0x100000001b3 ^
+              (ulonglong)local_res8 >> 0x10 & 0xff) * 0x100000001b3 ^
+             (ulonglong)local_res8 >> 0x18 & 0xff) * 0x100000001b3 ^
+            (ulonglong)local_res8 >> 0x20 & 0xff) * 0x100000001b3 ^
+           (ulonglong)local_res8 >> 0x28 & 0xff) * 0x100000001b3 ^
+          (ulonglong)local_res8 >> 0x30 & 0xff) * 0x100000001b3 ^ (ulonglong)local_res8 >> 0x38) *
+         0x100000001b3;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== FMT FUN_18007fdd0 @ 18007fdd0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+undefined8 FUN_18007fdd0(undefined8 *param_1,undefined4 param_2)
+
+{
+  lua_rawgeti(*param_1,0xffffd8f0,param_2);
+  return 1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE lua_error @ 180003470 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+undefined8 lua_error(void)
+
+{
+                    /* 0x3470  90  lua_error */
+  FUN_1800074c0();
+  return 0;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE luaL_error @ 180017500 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+void luaL_error(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  undefined8 local_res18;
+  undefined8 local_res20;
+  
+                    /* 0x17500  28  luaL_error */
+  local_res18 = param_3;
+  local_res20 = param_4;
+  luaL_where(param_1,1);
+  lua_pushvfstring(param_1,param_2,&local_res18);
+  lua_concat(param_1,2);
+  lua_error(param_1);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE __security_check_cookie @ 180321620 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+/* WARNING: This is an inlined function */
+/* Library Function - Single Match
+    __security_check_cookie
+   
+   Libraries: Visual Studio 2015, Visual Studio 2017, Visual Studio 2019 */
+
+void __cdecl __security_check_cookie(uintptr_t _StackCookie)
+
+{
+  if ((_StackCookie == DAT_18045bc88) && ((short)(_StackCookie >> 0x30) == 0)) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __report_gsfailure(_StackCookie);
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_180079ed0 @ 180079ed0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined1 * FUN_180079ed0(undefined1 *param_1,uint param_2)
+
+{
+  ulonglong uVar1;
+  ulonglong uVar2;
+  char *pcVar3;
+  undefined1 auStack_58 [32];
+  undefined1 *local_38;
+  char local_1d [5];
+  ulonglong local_18;
+  char *pcVar4;
+  
+  local_18 = DAT_18045bc88 ^ (ulonglong)auStack_58;
+  pcVar3 = local_1d + 2;
+  uVar2 = (ulonglong)param_2;
+  if ((int)param_2 < 0) {
+    param_2 = -param_2;
+    do {
+      pcVar4 = pcVar3;
+      pcVar3 = pcVar4 + -1;
+      *pcVar3 = (char)param_2 + (char)((ulonglong)param_2 / 10) * -10 + '0';
+      param_2 = (uint)((ulonglong)param_2 / 10);
+    } while (param_2 != 0);
+    pcVar3 = pcVar4 + -2;
+    *pcVar3 = '-';
+  }
+  else {
+    do {
+      pcVar3 = pcVar3 + -1;
+      uVar1 = uVar2 / 10;
+      *pcVar3 = (char)uVar2 + (char)uVar1 * -10 + '0';
+      uVar2 = uVar1;
+    } while ((int)uVar1 != 0);
+  }
+  *(undefined8 *)(param_1 + 0x10) = 0;
+  *(undefined8 *)(param_1 + 0x18) = 0xf;
+  *param_1 = 0;
+  if (pcVar3 != local_1d + 2) {
+    local_38 = param_1;
+    FUN_180050c80(param_1,pcVar3,local_1d + (2 - (longlong)pcVar3));
+  }
+  return param_1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE free @ 1803219ac ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+void __cdecl free(void *_Memory)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x000180322f88. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  free(_Memory);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE memmove @ 180322f10 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+void * __cdecl memmove(void *_Dst,void *_Src,size_t _Size)
+
+{
+  void *pvVar1;
+  
+                    /* WARNING: Could not recover jumptable at 0x000180322f10. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pvVar1 = memmove(_Dst,_Src,_Size);
+  return pvVar1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_18004ca50 @ 18004ca50 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+undefined8 *
+FUN_18004ca50(undefined8 *param_1,ulonglong param_2,undefined8 param_3,void *param_4,size_t param_5)
+
+{
+  size_t _Size;
+  ulonglong uVar1;
+  void *_Src;
+  longlong lVar2;
+  ulonglong uVar3;
+  ulonglong uVar4;
+  ulonglong uVar5;
+  void *pvVar6;
+  void *_Dst;
+  
+  _Size = param_1[2];
+  if (0x7fffffffffffffff - _Size < param_2) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180050990();
+  }
+  uVar1 = param_1[3];
+  uVar3 = _Size + param_2 | 0xf;
+  uVar5 = 0x7fffffffffffffff;
+  if (((uVar3 < 0x8000000000000000) && (uVar1 <= 0x7fffffffffffffff - (uVar1 >> 1))) &&
+     (uVar4 = (uVar1 >> 1) + uVar1, uVar5 = uVar3, uVar3 < uVar4)) {
+    uVar5 = uVar4;
+  }
+  uVar3 = uVar5 + 1;
+  if (uVar3 < 0x1000) {
+    if (uVar3 == 0) {
+      _Dst = (void *)0x0;
+    }
+    else {
+      _Dst = (void *)FUN_180321970(uVar3);
+    }
+  }
+  else {
+    uVar4 = uVar5 + 0x28;
+    if (uVar4 <= uVar3) {
+      uVar4 = 0xffffffffffffffff;
+    }
+    lVar2 = FUN_180321970(uVar4);
+    if (lVar2 == 0) goto LAB_18004cb7d;
+    _Dst = (void *)(lVar2 + 0x27U & 0xffffffffffffffe0);
+    *(longlong *)((longlong)_Dst - 8) = lVar2;
+  }
+  param_1[2] = _Size + param_2;
+  pvVar6 = (void *)((longlong)_Dst + _Size);
+  param_1[3] = uVar5;
+  if (uVar1 < 0x10) {
+    memcpy(_Dst,param_1,_Size);
+    memcpy(pvVar6,param_4,param_5);
+    *(undefined1 *)((longlong)pvVar6 + param_5) = 0;
+  }
+  else {
+    _Src = (void *)*param_1;
+    memcpy(_Dst,_Src,_Size);
+    memcpy(pvVar6,param_4,param_5);
+    *(undefined1 *)((longlong)pvVar6 + param_5) = 0;
+    pvVar6 = _Src;
+    if ((0xfff < uVar1 + 1) &&
+       (pvVar6 = *(void **)((longlong)_Src + -8),
+       0x1f < (ulonglong)((longlong)_Src + (-8 - (longlong)pvVar6)))) {
+LAB_18004cb7d:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar6);
+  }
+  *param_1 = _Dst;
+  return param_1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE lua_gettop @ 1800037c0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+longlong lua_gettop(longlong param_1)
+
+{
+                    /* 0x37c0  104  lua_gettop */
+  return *(longlong *)(param_1 + 0x10) - *(longlong *)(param_1 + 0x18) >> 4;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_18007de00 @ 18007de00 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined4 FUN_18007de00(undefined8 *param_1,longlong param_2)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  undefined8 uVar3;
+  wchar_t ****ppppwVar4;
+  int iVar5;
+  longlong lVar6;
+  undefined1 auStack_128 [32];
+  undefined8 local_108;
+  wchar_t ***local_100 [3];
+  ulonglong local_e8;
+  _stat64i32 local_e0;
+  undefined1 local_a8 [128];
+  ulonglong local_28;
+  
+  local_108 = 0xfffffffffffffffe;
+  local_28 = DAT_18045bc88 ^ (ulonglong)auStack_128;
+  FUN_18007b5c0(local_a8);
+  lVar6 = -1;
+  do {
+    lVar6 = lVar6 + 1;
+  } while (*(char *)(param_2 + lVar6) != '\0');
+  FUN_18007d170(local_a8,local_100,param_2,lVar6 + param_2);
+  FUN_18007bad0(local_a8);
+  ppppwVar4 = local_100;
+  if (7 < local_e8) {
+    ppppwVar4 = (wchar_t ****)local_100[0];
+  }
+  iVar1 = _wstat64i32((wchar_t *)ppppwVar4,&local_e0);
+  iVar5 = -1;
+  if (iVar1 == 0) {
+    iVar5 = local_e0.st_size;
+  }
+  if ((void *)*param_1 != (void *)0x0) {
+    free((void *)*param_1);
+    *param_1 = 0;
+  }
+  uVar3 = FUN_18007f180(param_2,(longlong)iVar5);
+  uVar2 = FUN_18007df50(param_1,uVar3,iVar5);
+  if (7 < local_e8) {
+    ppppwVar4 = (wchar_t ****)local_100[0];
+    if ((0xfff < local_e8 * 2 + 2) &&
+       (ppppwVar4 = (wchar_t ****)local_100[0][-1],
+       0x1f < (ulonglong)((longlong)local_100[0] + (-8 - (longlong)ppppwVar4)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(ppppwVar4);
+  }
+  return uVar2;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE lua_pushstring @ 180003e50 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+void lua_pushstring(longlong param_1,longlong param_2)
+
+{
+  longlong lVar1;
+  
+                    /* 0x3e50  133  lua_pushstring */
+  if (param_2 == 0) {
+    *(undefined4 *)(*(longlong *)(param_1 + 0x10) + 8) = 0;
+    *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + 0x10;
+    return;
+  }
+  lVar1 = -1;
+  do {
+    lVar1 = lVar1 + 1;
+  } while (*(char *)(param_2 + lVar1) != '\0');
+  lua_pushlstring();
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE luaL_checklstring @ 180017210 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+longlong luaL_checklstring(undefined8 param_1,undefined4 param_2)
+
+{
+  undefined4 uVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  
+                    /* 0x17210  22  luaL_checklstring */
+  lVar2 = lua_tolstring();
+  if (lVar2 == 0) {
+    uVar3 = lua_typename(param_1,4);
+    uVar1 = lua_type(param_1,param_2);
+    uVar4 = lua_typename(param_1,uVar1);
+    uVar3 = lua_pushfstring(param_1,"%s expected, got %s",uVar3,uVar4);
+    luaL_argerror(param_1,param_2,uVar3);
+  }
+  return lVar2;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_180050c80 @ 180050c80 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+longlong * FUN_180050c80(longlong *param_1,void *param_2,size_t param_3)
+
+{
+  ulonglong uVar1;
+  void *pvVar2;
+  longlong lVar3;
+  ulonglong uVar4;
+  ulonglong uVar5;
+  void *_Memory;
+  longlong *_Dst;
+  ulonglong uVar6;
+  void *_Dst_00;
+  
+  uVar1 = param_1[3];
+  if (uVar1 < param_3) {
+    if (0x7fffffffffffffff < param_3) {
+                    /* WARNING: Subroutine does not return */
+      FUN_180050990();
+    }
+    uVar4 = param_3 | 0xf;
+    uVar6 = 0x7fffffffffffffff;
+    if (((uVar4 < 0x8000000000000000) && (uVar1 <= 0x7fffffffffffffff - (uVar1 >> 1))) &&
+       (uVar5 = (uVar1 >> 1) + uVar1, uVar6 = uVar4, uVar4 < uVar5)) {
+      uVar6 = uVar5;
+    }
+    uVar4 = uVar6 + 1;
+    if (uVar4 < 0x1000) {
+      if (uVar4 == 0) {
+        _Dst_00 = (void *)0x0;
+      }
+      else {
+        _Dst_00 = (void *)FUN_180321970(uVar4);
+      }
+    }
+    else {
+      uVar5 = uVar6 + 0x28;
+      if (uVar5 <= uVar4) {
+        uVar5 = 0xffffffffffffffff;
+      }
+      lVar3 = FUN_180321970(uVar5);
+      if (lVar3 == 0) goto LAB_180050dc3;
+      _Dst_00 = (void *)(lVar3 + 0x27U & 0xffffffffffffffe0);
+      *(longlong *)((longlong)_Dst_00 - 8) = lVar3;
+    }
+    param_1[2] = param_3;
+    param_1[3] = uVar6;
+    memcpy(_Dst_00,param_2,param_3);
+    *(undefined1 *)((longlong)_Dst_00 + param_3) = 0;
+    if (0xf < uVar1) {
+      pvVar2 = (void *)*param_1;
+      _Memory = pvVar2;
+      if ((0xfff < uVar1 + 1) &&
+         (_Memory = *(void **)((longlong)pvVar2 + -8),
+         0x1f < (ulonglong)((longlong)pvVar2 + (-8 - (longlong)_Memory)))) {
+LAB_180050dc3:
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(_Memory);
+    }
+    *param_1 = (longlong)_Dst_00;
+  }
+  else {
+    _Dst = param_1;
+    if (0xf < uVar1) {
+      _Dst = (longlong *)*param_1;
+    }
+    param_1[2] = param_3;
+    memmove(_Dst,param_2,param_3);
+    *(undefined1 *)((longlong)_Dst + param_3) = 0;
+  }
+  return param_1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE lua_touserdata @ 1800047c0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+longlong lua_touserdata(void)
+
+{
+  longlong *plVar1;
+  
+                    /* 0x47c0  167  lua_touserdata */
+  plVar1 = (longlong *)FUN_1800030a0();
+  if ((int)plVar1[1] == 2) {
+    return *plVar1;
+  }
+  if ((int)plVar1[1] != 7) {
+    return 0;
+  }
+  return *plVar1 + 0x28;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE luaL_argerror @ 180016ff0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void luaL_argerror(undefined8 param_1,int param_2,undefined8 param_3)
+
+{
+  int iVar1;
+  longlong lVar2;
+  longlong lVar3;
+  undefined *puVar4;
+  undefined1 auStack_138 [32];
+  undefined8 local_118;
+  undefined1 local_108 [8];
+  undefined *local_100;
+  longlong local_f8;
+  ulonglong local_28;
+  
+                    /* 0x16ff0  17  luaL_argerror */
+  local_28 = DAT_18045bc88 ^ (ulonglong)auStack_138;
+  iVar1 = lua_getstack(param_1,0,local_108);
+  if (iVar1 == 0) {
+    luaL_error(param_1,"bad argument #%d (%s)",param_2,param_3);
+  }
+  else {
+    lua_getinfo(param_1,&DAT_180336390,local_108);
+    lVar2 = 0;
+    do {
+      lVar3 = lVar2 + 1;
+      if (*(char *)(local_f8 + lVar2) != "method"[lVar2]) goto LAB_180017092;
+      lVar2 = lVar3;
+    } while (lVar3 != 7);
+    param_2 = param_2 + -1;
+    if (param_2 == 0) {
+      luaL_error(param_1,"calling \'%s\' on bad self (%s)",local_100,param_3);
+    }
+    else {
+LAB_180017092:
+      puVar4 = &DAT_180336194;
+      if (local_100 != (undefined *)0x0) {
+        puVar4 = local_100;
+      }
+      local_118 = param_3;
+      local_100 = puVar4;
+      luaL_error(param_1,"bad argument #%d to \'%s\' (%s)",param_2);
+    }
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE luaL_checknumber @ 1800172a0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+double luaL_checknumber(undefined8 param_1,undefined4 param_2)
+
+{
+  int iVar1;
+  double dVar2;
+  
+                    /* 0x172a0  23  luaL_checknumber */
+  dVar2 = (double)lua_tonumber();
+  if ((dVar2 == 0.0) && (iVar1 = lua_isnumber(param_1,param_2), iVar1 == 0)) {
+    FUN_1800184a0(param_1,param_2,3);
+  }
+  return dVar2;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_18007f7e0 @ 18007f7e0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+int FUN_18007f7e0(undefined8 param_1,int *param_2)
+
+{
+  int iVar1;
+  undefined8 uVar2;
+  int iVar3;
+  
+  if (*param_2 == 2) {
+    lua_pushnil();
+LAB_18007f844:
+    lua_pushnil(param_1);
+  }
+  else {
+    if (*param_2 != 1) {
+      lua_pushnumber(param_1,*(undefined8 *)(param_2 + 2));
+      goto LAB_18007f844;
+    }
+    iVar1 = FUN_18007fb60(DAT_180482528,*(undefined8 *)(param_2 + 2));
+    lua_pushnumber(param_1,(double)iVar1);
+    lua_pushnumber(param_1,DAT_180336e10);
+  }
+  iVar1 = param_2[4];
+  iVar3 = 1;
+  if (iVar1 == 4) {
+    lua_pushnil(param_1);
+    return 3;
+  }
+  if (iVar1 == 0) {
+    lua_pushnumber(param_1,*(undefined8 *)(param_2 + 6));
+    return 3;
+  }
+  if (iVar1 == 3) {
+    lua_pushboolean(param_1,(char)param_2[6]);
+    return 3;
+  }
+  if (iVar1 == 1) {
+    iVar1 = FUN_18007fb60(DAT_180482528,*(undefined8 *)(param_2 + 6));
+    lua_pushnumber(param_1,(double)iVar1);
+  }
+  else {
+    if (iVar1 != 2) goto LAB_18007f940;
+    if ((char)param_2[7] != '\0') {
+      uVar2 = FUN_18007d890();
+      FUN_18007fdd0(uVar2,param_2[6]);
+      return 3;
+    }
+    lua_pushnumber(param_1,(double)(uint)param_2[6]);
+  }
+  lua_pushnumber(param_1);
+  iVar3 = 2;
+LAB_18007f940:
+  return iVar3 + 2;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE lua_getfield @ 1800036c0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+void lua_getfield(longlong param_1,undefined8 param_2,longlong param_3)
+
+{
+  undefined8 uVar1;
+  longlong lVar2;
+  undefined8 local_18;
+  undefined4 local_10;
+  
+                    /* 0x36c0  94  lua_getfield */
+  uVar1 = FUN_1800030a0();
+  lVar2 = -1;
+  do {
+    lVar2 = lVar2 + 1;
+  } while (*(char *)(param_3 + lVar2) != '\0');
+  local_18 = FUN_180010e90(param_1,param_3);
+  local_10 = 4;
+  FUN_1800153b0(param_1,uVar1,&local_18,*(undefined8 *)(param_1 + 0x10));
+  *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + 0x10;
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_18007db60 @ 18007db60 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_18007db60(longlong param_1,undefined4 param_2,undefined4 *param_3)
+
+{
+  void *pvVar1;
+  longlong *plVar2;
+  void *_Memory;
+  longlong lVar3;
+  undefined1 auStack_68 [32];
+  undefined8 local_48;
+  undefined1 local_40;
+  undefined7 uStack_3f;
+  undefined8 local_30;
+  ulonglong uStack_28;
+  ulonglong local_20;
+  
+  local_48 = 0xfffffffffffffffe;
+  local_20 = DAT_18045bc88 ^ (ulonglong)auStack_68;
+  local_30 = _DAT_18033da80;
+  uStack_28 = _UNK_18033da88;
+  local_40 = 0;
+  lVar3 = -1;
+  do {
+    lVar3 = lVar3 + 1;
+  } while (PTR_s___bdd_metatype___1804544d0[lVar3] != '\0');
+  FUN_180050c80(&local_40);
+  plVar2 = (longlong *)FUN_18007be00(param_1 + 0x130,&local_40);
+  lVar3 = *plVar2;
+  if (0xf < uStack_28) {
+    pvVar1 = (void *)CONCAT71(uStack_3f,local_40);
+    _Memory = pvVar1;
+    if ((0xfff < uStack_28 + 1) &&
+       (_Memory = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)_Memory)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(_Memory);
+  }
+  if (lVar3 == 0) {
+    *param_3 = 4;
+  }
+  else {
+    FUN_18007ef40(param_1,param_2,lVar3,param_3);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE lua_setmetatable @ 180004380 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+undefined8 lua_setmetatable(longlong param_1)
+
+{
+  int iVar1;
+  longlong *plVar2;
+  longlong lVar3;
+  
+                    /* 0x4380  153  lua_setmetatable */
+  plVar2 = (longlong *)FUN_1800030a0();
+  if (*(int *)(*(longlong *)(param_1 + 0x10) + -8) == 0) {
+    lVar3 = 0;
+  }
+  else {
+    lVar3 = *(longlong *)(*(longlong *)(param_1 + 0x10) + -0x10);
+  }
+  iVar1 = (int)plVar2[1];
+  if (iVar1 == 5) {
+    *(longlong *)(*plVar2 + 0x10) = lVar3;
+    if (((lVar3 != 0) && ((*(byte *)(lVar3 + 9) & 3) != 0)) && ((*(byte *)(*plVar2 + 9) & 4) != 0))
+    {
+      FUN_18000a1c0(param_1);
+    }
+  }
+  else {
+    if (iVar1 != 7) {
+      *(longlong *)(*(longlong *)(param_1 + 0x20) + 0xe0 + (longlong)iVar1 * 8) = lVar3;
+      *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + -0x10;
+      return 1;
+    }
+    *(longlong *)(*plVar2 + 0x10) = lVar3;
+    if (((lVar3 != 0) && ((*(byte *)(lVar3 + 9) & 3) != 0)) && ((*(byte *)(*plVar2 + 9) & 4) != 0))
+    {
+      FUN_18000a1e0(param_1,*plVar2,lVar3);
+      *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + -0x10;
+      return 1;
+    }
+  }
+  *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + -0x10;
+  return 1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE lua_newuserdata @ 180003a60 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+longlong lua_newuserdata(longlong param_1,undefined8 param_2)
+
+{
+  longlong *plVar1;
+  longlong lVar2;
+  undefined8 uVar3;
+  
+                    /* 0x3a60  120  lua_newuserdata */
+  if (*(ulonglong *)(*(longlong *)(param_1 + 0x20) + 0x70) <=
+      *(ulonglong *)(*(longlong *)(param_1 + 0x20) + 0x78)) {
+    FUN_18000a780();
+  }
+  if (*(longlong *)(param_1 + 0x28) == *(longlong *)(param_1 + 0x50)) {
+    uVar3 = *(undefined8 *)(param_1 + 0x78);
+  }
+  else {
+    uVar3 = *(undefined8 *)(**(longlong **)(*(longlong *)(param_1 + 0x28) + 8) + 0x18);
+  }
+  lVar2 = FUN_1800110e0(param_1,param_2,uVar3);
+  plVar1 = *(longlong **)(param_1 + 0x10);
+  *plVar1 = lVar2;
+  *(undefined4 *)(plVar1 + 1) = 7;
+  *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + 0x10;
+  return lVar2 + 0x28;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_18007f960 @ 18007f960 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+undefined8 FUN_18007f960(undefined8 param_1,int *param_2)
+
+{
+  int iVar1;
+  undefined8 uVar2;
+  
+  iVar1 = *param_2;
+  if (iVar1 == 4) {
+    lua_pushnil();
+  }
+  else {
+    if (iVar1 == 0) {
+      lua_pushnumber(param_1,*(undefined8 *)(param_2 + 2));
+      return 1;
+    }
+    if (iVar1 == 3) {
+      lua_pushboolean(param_1,(char)param_2[2]);
+      return 1;
+    }
+    if (iVar1 == 1) {
+      iVar1 = FUN_18007fb60(DAT_180482528,*(undefined8 *)(param_2 + 2));
+      lua_pushnumber(param_1,(double)iVar1);
+      lua_pushnumber(param_1,DAT_180336e10);
+      return 2;
+    }
+    if (iVar1 == 2) {
+      if ((char)param_2[3] != '\0') {
+        uVar2 = FUN_18007d890();
+        FUN_18007fdd0(uVar2,param_2[2]);
+        return 1;
+      }
+      lua_pushnumber(param_1,(double)(uint)param_2[2]);
+      lua_pushnumber(param_1,DAT_180339a90);
+      return 2;
+    }
+  }
+  return 1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_18007ef40 @ 18007ef40 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+undefined8 FUN_18007ef40(int *param_1,uint param_2,longlong param_3,undefined8 *param_4)
+
+{
+  uint uVar1;
+  int iVar2;
+  int iVar3;
+  uint uVar4;
+  undefined8 *puVar5;
+  longlong lVar6;
+  longlong lVar7;
+  uint uVar8;
+  undefined8 uVar9;
+  longlong *plVar10;
+  int iVar11;
+  int iVar12;
+  undefined8 *puVar13;
+  undefined8 *puVar14;
+  ulonglong uVar15;
+  undefined8 *puVar16;
+  int iVar17;
+  int iVar18;
+  longlong local_res18 [2];
+  undefined4 local_40;
+  undefined4 uStack_3c;
+  
+  plVar10 = DAT_180482528;
+  if ((param_2 == 0) || (param_3 == 0)) {
+    *(undefined4 *)param_4 = 4;
+    return 0;
+  }
+  puVar5 = (undefined8 *)DAT_180482528[10];
+  puVar13 = (undefined8 *)puVar5[1];
+  puVar16 = puVar5;
+  if (*(char *)((longlong)puVar5[1] + 0x19) == '\0') {
+    do {
+      if (*(uint *)(puVar13 + 4) < param_2) {
+        puVar14 = (undefined8 *)puVar13[2];
+      }
+      else {
+        puVar14 = (undefined8 *)*puVar13;
+        puVar16 = puVar13;
+      }
+      puVar13 = puVar14;
+    } while (*(char *)((longlong)puVar14 + 0x19) == '\0');
+    if ((puVar16 != puVar5) && (*(uint *)(puVar16 + 4) <= param_2)) goto LAB_18007efb4;
+  }
+  puVar16 = puVar5;
+LAB_18007efb4:
+  uVar8 = (uint)param_3;
+  local_res18[0] = param_3;
+  if (puVar16 != puVar5) {
+    FUN_180079dc0(puVar16 + 5,&local_40,local_res18);
+    lVar6 = CONCAT44(uStack_3c,local_40);
+    if (lVar6 != puVar16[6]) {
+      uVar9 = *(undefined8 *)(lVar6 + 0x20);
+      *param_4 = *(undefined8 *)(lVar6 + 0x18);
+      param_4[1] = uVar9;
+      uVar15 = (ulonglong)((param_2 >> 0x10 ^ param_2 ^ uVar8) & 0xfff);
+      param_1[uVar15 * 8 + 0x60] = param_2;
+      *(longlong *)(param_1 + uVar15 * 8 + 0x5e) = param_3;
+      uVar9 = param_4[1];
+      *(undefined8 *)(param_1 + uVar15 * 8 + 0x62) = *param_4;
+      *(undefined8 *)(param_1 + uVar15 * 8 + 0x62 + 2) = uVar9;
+      return 0;
+    }
+  }
+  lVar6 = *plVar10;
+  iVar17 = 0;
+  uVar1 = *(uint *)(lVar6 + (ulonglong)param_2);
+  iVar2 = *(int *)((ulonglong)uVar1 + lVar6);
+  local_40 = *(undefined4 *)((ulonglong)(uVar1 + 8) + lVar6);
+  iVar3 = *(int *)((ulonglong)(iVar2 + 9) + lVar6);
+  iVar18 = (*(int *)((ulonglong)(iVar2 + 5) + lVar6) - iVar3) + -1;
+  if (-1 < iVar18) {
+    lVar7 = *plVar10;
+    do {
+      iVar12 = (iVar18 - iVar17) / 2 + iVar17;
+      uVar4 = *(uint *)((ulonglong)
+                        (iVar2 + 0xd +
+                         (uint)(byte)(&DAT_180454478)[*(byte *)((ulonglong)(iVar2 + 4) + lVar6)] *
+                         iVar3 + iVar12 * 4) + lVar7);
+      if (uVar8 - *param_1 == uVar4) {
+        iVar12 = iVar3 + 1 + iVar12;
+        if (iVar12 != 0) {
+          FUN_18007f410(param_1,param_2,iVar12,
+                        *(undefined1 *)
+                         ((ulonglong)(uint)(*(int *)((ulonglong)(uVar1 + 4) + lVar6) + -1 + iVar12)
+                         + lVar7),local_40,param_4);
+          goto LAB_18007f0cd;
+        }
+        break;
+      }
+      iVar11 = iVar12 + -1;
+      if (uVar4 <= uVar8 - *param_1) {
+        iVar17 = iVar12 + 1;
+        iVar11 = iVar18;
+      }
+      iVar18 = iVar11;
+    } while (iVar17 <= iVar18);
+  }
+  *(undefined4 *)param_4 = 4;
+LAB_18007f0cd:
+  uVar15 = (ulonglong)((param_2 >> 0x10 ^ param_2 ^ uVar8) & 0xfff);
+  param_1[uVar15 * 8 + 0x60] = param_2;
+  *(longlong *)(param_1 + uVar15 * 8 + 0x5e) = param_3;
+  uVar9 = param_4[1];
+  *(undefined8 *)(param_1 + uVar15 * 8 + 0x62) = *param_4;
+  *(undefined8 *)(param_1 + uVar15 * 8 + 0x62 + 2) = uVar9;
+  return 0;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE _Xlength_error @ 180322c4c ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+void __cdecl std::_Xlength_error(char *param_1)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x000180322c4c. Too many branches */
+                    /* WARNING: Subroutine does not return */
+                    /* WARNING: Treating indirect jump as call */
+  _Xlength_error(param_1);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_180049690 @ 180049690 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+longlong * FUN_180049690(float *param_1,longlong *param_2,byte *param_3,longlong *param_4)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  longlong *plVar3;
+  ulonglong uVar4;
+  longlong lVar5;
+  ulonglong uVar6;
+  ulonglong uVar7;
+  float fVar8;
+  float fVar9;
+  undefined1 local_28 [16];
+  
+  uVar7 = (((((((((ulonglong)*param_3 ^ 0xcbf29ce484222325) * 0x100000001b3 ^ (ulonglong)param_3[1])
+                * 0x100000001b3 ^ (ulonglong)param_3[2]) * 0x100000001b3 ^ (ulonglong)param_3[3]) *
+              0x100000001b3 ^ (ulonglong)param_3[4]) * 0x100000001b3 ^ (ulonglong)param_3[5]) *
+            0x100000001b3 ^ (ulonglong)param_3[6]) * 0x100000001b3 ^ (ulonglong)param_3[7]) *
+          0x100000001b3;
+  uVar6 = *(ulonglong *)(param_1 + 0xc) & uVar7;
+  lVar5 = *(longlong *)(param_1 + 2);
+  lVar1 = *(longlong *)(*(longlong *)(param_1 + 6) + uVar6 * 0x10);
+  if (lVar5 == lVar1) {
+LAB_1800497a0:
+    lVar1 = *param_4;
+    if (lVar5 != lVar1) {
+      *(longlong *)param_4[1] = lVar1;
+      **(longlong **)(lVar1 + 8) = lVar5;
+      **(undefined8 **)(lVar5 + 8) = param_4;
+      lVar2 = *(longlong *)(lVar5 + 8);
+      *(undefined8 *)(lVar5 + 8) = *(undefined8 *)(lVar1 + 8);
+      *(longlong *)(lVar1 + 8) = param_4[1];
+      param_4[1] = lVar2;
+    }
+    lVar1 = *(longlong *)(param_1 + 6);
+    lVar2 = *(longlong *)(lVar1 + uVar6 * 0x10);
+    if (lVar2 == *(longlong *)(param_1 + 2)) {
+      *(longlong **)(lVar1 + uVar6 * 0x10) = param_4;
+      *(longlong **)(*(longlong *)(param_1 + 6) + 8 + uVar6 * 0x10) = param_4;
+    }
+    else if (lVar2 == lVar5) {
+      *(longlong **)(lVar1 + uVar6 * 0x10) = param_4;
+    }
+    else {
+      plVar3 = (longlong *)**(undefined8 **)(lVar1 + 8 + uVar6 * 0x10);
+      *(longlong **)(lVar1 + 8 + uVar6 * 0x10) = plVar3;
+      if (plVar3 != param_4) {
+        *(undefined8 *)(*(longlong *)(param_1 + 6) + 8 + uVar6 * 0x10) =
+             *(undefined8 *)(*(longlong *)(*(longlong *)(param_1 + 6) + 8 + uVar6 * 0x10) + 8);
+      }
+    }
+    uVar4 = *(ulonglong *)(param_1 + 0xe);
+    fVar8 = (float)*(longlong *)(param_1 + 4);
+    if (*(longlong *)(param_1 + 4) < 0) {
+      fVar8 = fVar8 + DAT_18033da74;
+    }
+    fVar9 = (float)(longlong)uVar4;
+    if ((longlong)uVar4 < 0) {
+      fVar9 = fVar9 + DAT_18033da74;
+    }
+    if (*param_1 <= fVar8 / fVar9 && fVar8 / fVar9 != *param_1) {
+      if (uVar4 < 0x200) {
+        uVar4 = uVar4 * 8;
+      }
+      else if (uVar4 < 0xfffffffffffffff) {
+        uVar4 = uVar4 * 2;
+      }
+      FUN_1800501a0(param_1,uVar4,uVar6 * 2,uVar7,param_4,0xfffffffffffffffe);
+      plVar3 = *(longlong **)(param_1 + 2);
+      if ((longlong *)*plVar3 != plVar3) {
+        lVar5 = plVar3[1];
+        do {
+          lVar1 = **(longlong **)(param_1 + 2);
+          FUN_180049690(param_1,local_28,lVar1 + 0x10,lVar1);
+        } while (lVar1 != lVar5);
+      }
+    }
+    *param_2 = (longlong)param_4;
+    *(undefined1 *)(param_2 + 1) = 1;
+  }
+  else {
+    lVar5 = **(longlong **)(*(longlong *)(param_1 + 6) + 8 + uVar6 * 0x10);
+    do {
+      if (lVar5 == lVar1) goto LAB_1800497a0;
+      lVar5 = *(longlong *)(lVar5 + 8);
+    } while (*(longlong *)param_3 != *(longlong *)(lVar5 + 0x10));
+    *(longlong *)param_4[1] = *param_4;
+    *(longlong *)(*param_4 + 8) = param_4[1];
+    *(longlong *)(param_1 + 4) = *(longlong *)(param_1 + 4) + -1;
+    free(param_4);
+    *param_2 = lVar5;
+    *(undefined1 *)(param_2 + 1) = 0;
+  }
+  return param_2;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_18006fb50 @ 18006fb50 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+longlong FUN_18006fb50(longlong *param_1,void *param_2,undefined8 *param_3)
+
+{
+  ulonglong uVar1;
+  longlong lVar2;
+  longlong lVar3;
+  ulonglong uVar4;
+  ulonglong uVar5;
+  ulonglong uVar6;
+  void *pvVar7;
+  void *pvVar8;
+  void *_Dst;
+  size_t _Size;
+  undefined1 local_res10 [16];
+  void *local_res20;
+  
+  lVar2 = *param_1;
+  lVar3 = param_1[1] - lVar2 >> 3;
+  if (lVar3 == 0x1fffffffffffffff) {
+                    /* WARNING: Subroutine does not return */
+    FUN_1800509d0();
+  }
+  uVar1 = lVar3 + 1;
+  uVar5 = param_1[2] - lVar2 >> 3;
+  uVar4 = uVar1;
+  if ((uVar5 <= 0x1fffffffffffffff - (uVar5 >> 1)) && (uVar4 = (uVar5 >> 1) + uVar5, uVar4 < uVar1))
+  {
+    uVar4 = uVar1;
+  }
+  uVar5 = uVar4 * 8;
+  if (uVar4 < 0x2000000000000000) {
+    uVar4 = uVar5;
+    if (uVar5 < 0x1000) {
+      if (uVar5 == 0) {
+        _Dst = (void *)0x0;
+      }
+      else {
+        _Dst = (void *)FUN_180321970();
+      }
+      goto LAB_18006fc42;
+    }
+  }
+  else {
+    uVar4 = 0xffffffffffffffff;
+  }
+  uVar6 = uVar4 + 0x27;
+  if (uVar6 <= uVar4) {
+    uVar6 = 0xffffffffffffffff;
+  }
+  lVar3 = FUN_180321970(uVar6);
+  if (lVar3 == 0) {
+                    /* WARNING: Subroutine does not return */
+    _invalid_parameter_noinfo_noreturn();
+  }
+  _Dst = (void *)(lVar3 + 0x27U & 0xffffffffffffffe0);
+  *(longlong *)((longlong)_Dst - 8) = lVar3;
+LAB_18006fc42:
+  lVar2 = ((longlong)param_2 - lVar2 >> 3) * 8;
+  *(undefined8 *)((longlong)_Dst + lVar2) = *param_3;
+  pvVar7 = (void *)param_1[1];
+  local_res20 = _Dst;
+  FUN_18004c360(local_res10,local_res10,local_res10);
+  pvVar8 = (void *)*param_1;
+  if (param_2 == pvVar7) {
+    _Size = (longlong)pvVar7 - (longlong)pvVar8;
+    pvVar7 = _Dst;
+    param_2 = pvVar8;
+  }
+  else {
+    memmove(_Dst,pvVar8,(longlong)param_2 - *param_1);
+    lVar3 = param_1[1];
+    FUN_18004c360(local_res10,local_res10,local_res10);
+    _Size = lVar3 - (longlong)param_2;
+    pvVar7 = (void *)(lVar2 + 8 + (longlong)_Dst);
+  }
+  memmove(pvVar7,param_2,_Size);
+  pvVar7 = (void *)*param_1;
+  if (pvVar7 != (void *)0x0) {
+    pvVar8 = pvVar7;
+    if ((0xfff < (param_1[2] - (longlong)pvVar7 & 0xfffffffffffffff8U)) &&
+       (pvVar8 = *(void **)((longlong)pvVar7 + -8),
+       0x1f < (ulonglong)((longlong)pvVar7 + (-8 - (longlong)pvVar8)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar8);
+  }
+  *param_1 = (longlong)_Dst;
+  param_1[1] = (longlong)((longlong)_Dst + uVar1 * 8);
+  param_1[2] = (longlong)(uVar5 + (longlong)_Dst);
+  return *param_1 + lVar2;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_180048320 @ 180048320 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+void FUN_180048320(void)
+
+{
+  longlong lVar1;
+  undefined8 *in_stack_00000028;
+  
+  lVar1 = FUN_18004f6e0();
+  *(undefined8 *)(lVar1 + 0x10) = *(undefined8 *)*in_stack_00000028;
+  *(undefined4 *)(lVar1 + 0x18) = 0;
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE FUN_180079dc0 @ 180079dc0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+longlong * FUN_180079dc0(longlong param_1,longlong *param_2,byte *param_3)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  undefined8 *puVar3;
+  undefined8 *puVar4;
+  ulonglong uVar5;
+  
+  puVar1 = *(undefined8 **)(param_1 + 8);
+  uVar5 = *(ulonglong *)(param_1 + 0x30) &
+          (((((((((ulonglong)*param_3 ^ 0xcbf29ce484222325) * 0x100000001b3 ^ (ulonglong)param_3[1])
+                * 0x100000001b3 ^ (ulonglong)param_3[2]) * 0x100000001b3 ^ (ulonglong)param_3[3]) *
+              0x100000001b3 ^ (ulonglong)param_3[4]) * 0x100000001b3 ^ (ulonglong)param_3[5]) *
+            0x100000001b3 ^ (ulonglong)param_3[6]) * 0x100000001b3 ^ (ulonglong)param_3[7]) *
+          0x100000001b3;
+  puVar2 = *(undefined8 **)(*(longlong *)(param_1 + 0x18) + uVar5 * 0x10);
+  puVar4 = puVar2;
+  while( true ) {
+    puVar3 = puVar1;
+    if (puVar2 != puVar1) {
+      puVar3 = (undefined8 *)**(undefined8 **)(*(longlong *)(param_1 + 0x18) + uVar5 * 0x10 + 8);
+    }
+    if (puVar4 == puVar3) break;
+    if (puVar4[2] == *(longlong *)param_3) {
+      *param_2 = (longlong)puVar4;
+      return param_2;
+    }
+    puVar4 = (undefined8 *)*puVar4;
+  }
+  *param_2 = (longlong)puVar1;
+  return param_2;
+}
+
+ (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+
+===== CALLEE lua_rawgeti @ 180003fc0 ===== (GhidraScript)  
+INFO  DecompileBddFmt.java> 
+void lua_rawgeti(longlong param_1,undefined8 param_2,ulonglong param_3)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  
+                    /* 0x3fc0  140  lua_rawgeti */
+  param_3 = param_3 & 0xffffffff;
+  puVar1 = (undefined8 *)FUN_1800030a0();
+  puVar2 = (undefined8 *)FUN_180011460(*puVar1,param_3 & 0xffffffff);
+  puVar1 = *(undefined8 **)(param_1 + 0x10);
+  *puVar1 = *puVar2;
+  *(undefined4 *)(puVar1 + 1) = *(undefined4 *)(puVar2 + 1);
+  *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + 0x10;
+  return;
+}
+
+ (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /xlua.dll (HeadlessAnalyzer)  

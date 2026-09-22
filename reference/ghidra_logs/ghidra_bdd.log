@@ -1,0 +1,1618 @@
+INFO  Using log config file: jar:file:/C:/Users/cnoji/dev/fgf-watcher/keyrecovery/tools/ghidra_12.1.3_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (434 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (1586 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\cnoji\dev\fgf-watcher\keyrecovery\ghidra_project\xlua_analysis (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\cnoji\dev\fgf-watcher\keyrecovery\ghidra_project\xlua_analysis (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: C:\Users\cnoji\dev\fgf-watcher\keyrecovery\ghidra_project\xlua_analysis (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/xlua.dll (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:64:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\Program Files\Microsoft\jdk-21.0.12.101-hotspot\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, C:\Users\cnoji\bin, C:\Program Files\Git\mingw64\bin, C:\Program Files\Git\usr\local\bin, C:\Program Files\Git\usr\bin, C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot\bin, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0, C:\WINDOWS\System32\OpenSSH, C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\Program Files\Git\cmd, C:\Users\cnoji\AppData\Local\Programs\Python\Python312\Scripts, C:\Users\cnoji\AppData\Local\Programs\Python\Python312, C:\Users\cnoji\AppData\Local\Programs\Python\Launcher, C:\Users\cnoji\AppData\Local\Microsoft\WindowsApps, C:\Users\cnoji\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\cnoji\AppData\Local\Programs\Ollama, C:\Users\cnoji\.local\bin, C:\Program Files\Git\usr\bin\vendor_perl, C:\Program Files\Git\usr\bin\core_perl, C:\Users\cnoji\AppData\Roaming\Claude\local-agent-mode-sessions\skills-plugin\e7e2b513-c97e-4214-987f-c6b1e9446b95\063ec446-b439-4236-b5f6-ff5459c30c40\bin] (ProgramLoader)  
+INFO  TLS callbacks at 1803360a0 (TLSDirectory)  
+WARN  Invalid or missing function at 1800c894c (ExportDataDirectory)  
+WARN  Invalid or missing function at 1800603a4 (ExportDataDirectory)  
+INFO  Additional info:
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/xlua.dll?MD5=1777def8638aec89946a138c15310e45...
+------------------------------------------------
+
+Searching 23 paths for library ADVAPI32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/advapi32.dll
+Loading file:///C:/Windows/System32/advapi32.dll?MD5=8b341831df1be2e0b83fb26fc9aba2a4...
+Using existing exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\advapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-CONVERT-L1-1-0.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/api-ms-win-crt-convert-l1-1-0.dll?MD5=4ec4790281017e616af632da1dc624e1...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-convert-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-ENVIRONMENT-L1-1-0.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/api-ms-win-crt-environment-l1-1-0.dll?MD5=7a859e91fdcf78a584ac93aa85371bc9...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-environment-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-FILESYSTEM-L1-1-0.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/api-ms-win-crt-filesystem-l1-1-0.dll?MD5=972544ade7e32bfdeb28b39bc734cdee...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-filesystem-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-HEAP-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.12.101-hotspot/bin/api-ms-win-crt-heap-l1-1-0.dll?MD5=2f3a2b5e7d68c48cff0c0f468646c7c6...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-heap-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-LOCALE-L1-1-0.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/api-ms-win-crt-locale-l1-1-0.dll?MD5=dd8176e132eedea3322443046ac35ca2...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-locale-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-MATH-L1-1-0.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/api-ms-win-crt-math-l1-1-0.dll?MD5=a6a3d6d11d623e16866f38185853facd...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-math-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/api-ms-win-crt-runtime-l1-1-0.dll?MD5=f1a23c251fcbb7041496352ec9bcffbe...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-runtime-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-STDIO-L1-1-0.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/api-ms-win-crt-stdio-l1-1-0.dll?MD5=55b2eb7f17f82b2096e94bca9d2db901...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-stdio-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-STRING-L1-1-0.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/api-ms-win-crt-string-l1-1-0.dll?MD5=9b79965f06fd756a5efde11e8d373108...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-string-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-TIME-L1-1-0.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/api-ms-win-crt-time-l1-1-0.dll?MD5=1d48a3189a55b632798f0e859628b0fb...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-time-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library API-MS-WIN-CRT-UTILITY-L1-1-0.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/api-ms-win-crt-utility-l1-1-0.dll?MD5=dbc27d384679916ba76316fb5e972ea6...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-utility-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library BCRYPT.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/bcrypt.dll
+Loading file:///C:/Windows/System32/bcrypt.dll?MD5=d6b7fe005405162bc129ebf3ec036da5...
+[bcrypt.dll]: failed to create WEVTResource at 1800284d0: Failed to resolve data length for WEVTResource
+Using existing exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\bcrypt.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library KERNEL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/kernel32.dll
+Loading file:///C:/Windows/System32/kernel32.dll?MD5=046e6b86273b9cc2ed367bdcf9c12b44...
+Using existing exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library MSVCP140.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/msvcp140.dll
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.12.101-hotspot/bin/msvcp140.dll?MD5=3c7e6547f5a78e87c36fedf5d43a3b73...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\msvcp140.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library USER32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/user32.dll
+Loading file:///C:/Windows/System32/user32.dll?MD5=0a96167c4b0625336617aee21c3a7ad1...
+[user32.dll]: failed to create WEVTResource at 1800e7a70: Failed to resolve data length for WEVTResource
+Using existing exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library VCRUNTIME140.DLL...
+Loading file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/vcruntime140.dll?MD5=870fea4e961e2fbd00110d3783e529be...
+Created exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\vcruntime140.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 23 paths for library WS2_32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/ws2_32.dll
+Loading file:///C:/Windows/System32/ws2_32.dll?MD5=173a92465198d75800463651cfea0ec8...
+[ws2_32.dll]: failed to create WEVTResource at 18006b4b8: Failed to resolve data length for WEVTResource
+Using existing exports file: C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\ws2_32.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\ws2_32.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\kernel32.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\user32.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\advapi32.exports
+Applying cached symbols from MSVCP140.DLL
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\bcrypt.exports
+Applying cached symbols from VCRUNTIME140.DLL
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-math-l1-1-0.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-runtime-l1-1-0.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-string-l1-1-0.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-locale-l1-1-0.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-stdio-l1-1-0.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-convert-l1-1-0.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-heap-l1-1-0.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-time-l1-1-0.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-utility-l1-1-0.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-environment-l1-1-0.exports
+Applying C:\Users\cnoji\AppData\Roaming\ghidra\ghidra_12.1.3_PUBLIC\symbols\win64\api-ms-win-crt-filesystem-l1-1-0.exports
+Linking the External Programs of 'xlua.dll' to imported libraries...
+  [WS2_32.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [MSVCP140.DLL] -> not found in project
+  [BCRYPT.DLL] -> not found in project
+  [VCRUNTIME140.DLL] -> not found in project
+  [API-MS-WIN-CRT-MATH-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-STRING-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-LOCALE-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-STDIO-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-CONVERT-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-HEAP-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-TIME-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-UTILITY-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-ENVIRONMENT-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-FILESYSTEM-L1-1-0.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/xlua.dll (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: C:\Users\cnoji\dev\fgf-watcher\keyrecovery\tools\ghidra_12.1.3_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: C:\Users\cnoji\AppData\Local\ghidra\packed-db-cache (PackedDatabaseCache)  
+INFO  Unprocessed TypeDescriptor: char * __ptr64 (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char * __ptr64 (TypeDescriptorModel)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+WARN  Decompiling 1800da150: Unable to read bytes at ram:1d6535540 (DecompileCallback)  
+WARN  Decompiling 1800da150: Unable to read bytes at ram:1d6535540 (DecompileCallback)  
+WARN  Decompiling 1800da150: Unable to read bytes at ram:1d6535540 (DecompileCallback)  
+WARN  Decompiling 18011ec30: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011ec30: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180109c70: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180103a80: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dc7c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801088a0: Unable to read bytes at ram:203485340 (DecompileCallback)  
+WARN  Decompiling 1800efec0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011e6a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011e6a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f5020: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180104ba0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180109950: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18011fc00: Unable to read bytes at ram:203485340 (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180139720: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dd0b0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801397f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d5c0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800dd490: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d5c0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013d5c0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180108ec0: Unable to read bytes at ram:203485340 (DecompileCallback)  
+WARN  Decompiling 180108da0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013d5c0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800d9ab0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180108da0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1801040c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801086b0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180109d70: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f7730: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eab70: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800eab70: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eab70: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 18011bb20: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180109d70: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011bb20: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eab70: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eab70: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011bb20: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f5dd0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801337e0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ee410: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800ee410: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800dcd60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dd3d0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180104be0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f5880: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ecc70: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ecc70: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ecc70: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dd160: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ea620: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ea620: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ea620: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013eee0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ea620: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013eee0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013eee0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013eee0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801047f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180114d30: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180107290: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb5f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb5f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801093f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb5f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb5f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb5f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180100fe0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180127960: Unable to read bytes at ram:1d5c48b48 (DecompileCallback)  
+WARN  Decompiling 1801212b0: Unable to read bytes at ram:1d6c48b48 (DecompileCallback)  
+WARN  Decompiling 180127d80: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801142a0: Unable to read bytes at ram:1d6535540 (DecompileCallback)  
+WARN  Decompiling 1800ea900: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180104b50: Unable to read bytes at ram:1b841b60f (DecompileCallback)  
+WARN  Decompiling 1800ea900: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f0300: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ea900: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ea900: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801095a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f0f10: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f0f10: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f0f10: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f0f10: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4810: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f50e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011e8c0: Unable to read bytes at ram:1c9dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800efdc0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e3630: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e3630: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e3630: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011ea80: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb970: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800eb970: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18011f140: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011f140: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801063f0: Unable to read bytes at ram:19041b60f (DecompileCallback)  
+WARN  Decompiling 1800f4980: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f5420: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180108930: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ee620: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ee620: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f5950: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f54f0: Unable to read bytes at ram:1cc018b4c (DecompileCallback)  
+WARN  Decompiling 18011fad0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebc20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebc20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebc20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2870: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013bb10: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2870: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180106fd0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180107190: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011fb80: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2870: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2870: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f2870: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013f480: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800dd560: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013f480: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 18013f480: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 18013f480: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 18013f480: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180106170: Unable to read bytes at ram:203485340 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f3710: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3710: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3710: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3710: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180108760: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dc6c0: Unable to read bytes at ram:203485340 (DecompileCallback)  
+WARN  Decompiling 180100f50: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180120060: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180120060: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2450: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2450: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2450: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2450: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e2de0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e2de0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180109850: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180106ef0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013af60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e2bd0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dd760: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180106570: Unable to read bytes at ram:203485340 (DecompileCallback)  
+WARN  Decompiling 18013f9f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f9f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f9f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f9f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180107050: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 18011ede0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011ede0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4af0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4af0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800e1b40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800eea20: Unable to read bytes at ram:1d5c48b48 (DecompileCallback)  
+WARN  Decompiling 1800e1b40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800eea20: Unable to read bytes at ram:1d5c48b48 (DecompileCallback)  
+WARN  Decompiling 18013aeb0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011ffe0: Unable to read bytes at ram:19841b60f (DecompileCallback)  
+WARN  Decompiling 18011ffe0: Unable to read bytes at ram:19841b60f (DecompileCallback)  
+WARN  Decompiling 1800eb0c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb0c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb0c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb0c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180109a50: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dda00: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180120ea0: Unable to read bytes at ram:201485740 (DecompileCallback)  
+WARN  Decompiling 18013bbe0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180109240: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180105170: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800d9d90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800d9d90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800d9d90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180133890: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011fd00: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013ba30: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180103b30: Unable to read bytes at ram:203485340 (DecompileCallback)  
+WARN  Decompiling 1801064e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e2fe0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e2fe0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e2fe0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800fa4a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800fa4a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800fa4a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180106110: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180106490: Unable to read bytes at ram:1a041b60f (DecompileCallback)  
+WARN  Decompiling 180121000: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e3800: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800e3800: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800e3800: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180127760: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e3800: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800e3800: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800e31e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e31e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e31e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3390: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3390: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3390: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3390: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f3390: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180107220: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f57c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faa90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180133740: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800dc5c0: Unable to read bytes at ram:203485740 (DecompileCallback)  
+WARN  Decompiling 1800faa90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faa90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f5b10: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1801047a0: Unable to read bytes at ram:203485340 (DecompileCallback)  
+WARN  Decompiling 1800da860: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800da860: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800da860: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180106520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f1e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f1e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f1e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180100ec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f1e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801090c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dcca0: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1801339e0: Unable to read bytes at ram:1d5c48b48 (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180108a50: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18020b190: Unable to read bytes at ram:181010000 (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ecec0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180109d70: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180109d70: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eab70: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800eab70: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800eab70: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800eab70: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800eab70: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800f4ca0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4ca0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dd220: Unable to read bytes at ram:1a4748948 (DecompileCallback)  
+WARN  Decompiling 1800dd220: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dd220: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800da150: Unable to read bytes at ram:1d6535540 (DecompileCallback)  
+WARN  Decompiling 1800da150: Unable to read bytes at ram:1d6535540 (DecompileCallback)  
+WARN  Decompiling 1800da150: Unable to read bytes at ram:1d6535540 (DecompileCallback)  
+WARN  Decompiling 1800eb0c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb0c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb0c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb0c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18011ffe0: Unable to read bytes at ram:19841b60f (DecompileCallback)  
+WARN  Decompiling 18011ffe0: Unable to read bytes at ram:19841b60f (DecompileCallback)  
+WARN  Decompiling 1800faa90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faa90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faa90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f5240: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dc960: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e2fe0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb5f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e2fe0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f5240: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800eb5f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb5f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f5240: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e2fe0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800da860: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f55c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb5f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dcac0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f55c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800eb5f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800da860: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ebf20: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800da860: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013d940: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f39f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180120060: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f1e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180120060: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e3800: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800dced0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dd8c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f1e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e3800: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ea900: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f1e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e3800: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800dced0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800dd8c0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ea900: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f1e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1a60: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800fa710: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e3800: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f14f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ea900: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800e3800: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ea900: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3c60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e31e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2870: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e31e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2870: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800e31e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec210: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2870: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013e520: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800d9d90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013dd40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2870: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2870: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800d9d90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f9f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180106440: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800d9d90: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f9f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800dc8a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f9f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801156a0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f9f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3390: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800f3390: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f480: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4120: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f2bf0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3390: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013f480: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3390: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013f480: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1800ec7e0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800faea0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f3390: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 18013f480: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4e60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 18013f480: Unable to read bytes at ram:1d5dc8b4c (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800f4e60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1801146f0: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800f4e60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f1210: Unable to read bytes at ram:1d7565540 (DecompileCallback)  
+WARN  Decompiling 1800f4e60: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4d40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 1800f4d40: Unable to read bytes at ram:24ccccccc (DecompileCallback)  
+WARN  Decompiling 180100c80: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180100c80: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180100c80: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180100c80: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180100c80: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180100c80: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180100c80: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+WARN  Decompiling 180100c80: Unable to read bytes at ram:1a45c8948 (DecompileCallback)  
+INFO  Unprocessed TypeDescriptor: void (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void (__cdecl *)(class std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __ptr64) (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void (__cdecl *)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char * __ptr64 (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char * __ptr64 (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * __ptr64 (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * __ptr64 (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: unsigned char (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: unsigned char (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char * __ptr64 (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char * __ptr64 (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char * __ptr64 (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char * __ptr64 (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * __ptr64 (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * __ptr64 (TypeDescriptorModel)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  
+ERROR Could not create Data at address 180333439 (DemangledVariable)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.543 secs
+    Apply Data Archives                        0.160 secs
+    Call Convention ID                         0.047 secs
+    Call-Fixup Installer                       1.048 secs
+    Create Address Tables                      0.525 secs
+    Create Address Tables - One Time           2.165 secs
+    Create Function                            0.217 secs
+    Data Reference                             0.827 secs
+    Decompiler Switch Analysis                11.974 secs
+    Decompiler Switch Analysis - One Time      7.046 secs
+    Demangler Microsoft                        0.122 secs
+    Disassemble                                0.015 secs
+    Disassemble Entry Points                   7.458 secs
+    Disassemble Entry Points - One Time        0.001 secs
+    Embedded Media                             0.027 secs
+    External Entry References                  0.001 secs
+    Function ID                                2.984 secs
+    Function Start Search                      0.065 secs
+    Non-Returning Functions - Discovered       1.823 secs
+    Non-Returning Functions - Known            0.019 secs
+    PDB Universal                              0.003 secs
+    Reference                                  0.655 secs
+    Scalar Operand References                  2.984 secs
+    Shared Return Calls                        0.854 secs
+    Stack                                     13.710 secs
+    Subroutine References                      0.527 secs
+    Subroutine References - One Time           0.015 secs
+    Windows x86 PE Exception Handling          2.429 secs
+    Windows x86 PE RTTI Analyzer               6.145 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.021 secs
+    WindowsResourceReference                   0.364 secs
+    x86 Constant Reference Analyzer           13.290 secs
+-----------------------------------------------------
+     Total Time   78 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/xlua.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompileBdd.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\cnoji\dev\fgf-watcher\keyrecovery\ghidra_scripts\DecompileBdd.java (HeadlessAnalyzer)  
+INFO  DecompileBdd.java> 
+
+===== BDD FUN_180078880 @ 180078880 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+undefined8 FUN_180078880(undefined8 param_1)
+
+{
+  uint uVar1;
+  
+  uVar1 = FUN_18007dc60(DAT_180482528);
+  lua_pushnumber(param_1,(double)uVar1);
+  return 1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== BDD FUN_180078bd0 @ 180078bd0 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+undefined8 FUN_180078bd0(undefined8 param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  undefined4 *puVar3;
+  undefined8 uVar4;
+  undefined4 uVar5;
+  
+  iVar1 = lua_gettop();
+  if (iVar1 < 2) {
+    uVar2 = lua_gettop();
+    luaL_error(param_1,"invalid argument count expect %d args, actually %d",2,uVar2);
+    return 0;
+  }
+  puVar3 = (undefined4 *)lua_touserdata(param_1,1);
+  if (puVar3 == (undefined4 *)0x0) {
+    luaL_argerror(param_1,1,"expect userdata");
+    return 0;
+  }
+  uVar2 = *puVar3;
+  uVar5 = luaL_checknumber(param_1,2);
+  FUN_18007ed40(DAT_180482528,uVar2,uVar5,&DAT_180454448);
+  uVar4 = FUN_18007f960(param_1,&DAT_180454448);
+  return uVar4;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== BDD FUN_1800788c0 @ 1800788c0 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_1800788c0(undefined8 param_1)
+
+{
+  size_t _Size;
+  void *pvVar1;
+  int iVar2;
+  undefined4 uVar3;
+  undefined8 *_Src;
+  void *pvVar4;
+  undefined1 *puVar5;
+  longlong lVar6;
+  double dVar7;
+  undefined1 auStack_88 [32];
+  size_t local_68;
+  undefined8 local_58;
+  undefined1 local_50;
+  undefined7 uStack_4f;
+  longlong local_40;
+  ulonglong uStack_38;
+  void *local_30 [3];
+  ulonglong local_18;
+  ulonglong local_10;
+  
+  local_58 = 0xfffffffffffffffe;
+  local_10 = DAT_18045bc88 ^ (ulonglong)auStack_88;
+  iVar2 = lua_gettop();
+  if (iVar2 < 1) {
+    uVar3 = lua_gettop();
+    luaL_error(param_1,"invalid argument count expect %d args, actually %d",1,uVar3);
+    return 0;
+  }
+  dVar7 = (double)luaL_checknumber(param_1,1);
+  iVar2 = (int)dVar7;
+  if (iVar2 < 0) {
+LAB_180078969:
+    lVar6 = -1;
+  }
+  else {
+    if ((ulonglong)
+        (*(longlong *)(DAT_180482528 + 0x40188) - *(longlong *)(DAT_180482528 + 0x40180) >> 3) <=
+        (ulonglong)(longlong)iVar2) goto LAB_180078969;
+    lVar6 = *(longlong *)(*(longlong *)(DAT_180482528 + 0x40180) + (longlong)iVar2 * 8);
+    if (lVar6 != -1) goto LAB_180078ab4;
+  }
+  local_40 = _DAT_18033da80;
+  uStack_38 = _UNK_18033da88;
+  local_50 = 0;
+  FUN_180050c80(&local_50,"bdd_get_str_by_addr error: not found key with idx ",0x32);
+  _Src = (undefined8 *)FUN_180079ed0(local_30,iVar2);
+  _Size = _Src[2];
+  if (0xf < (ulonglong)_Src[3]) {
+    _Src = (undefined8 *)*_Src;
+  }
+  if (uStack_38 - local_40 < _Size) {
+    local_68 = _Size;
+    FUN_18004ca50(&local_50,_Size,0);
+  }
+  else {
+    puVar5 = &local_50;
+    if (0xf < uStack_38) {
+      puVar5 = (undefined1 *)CONCAT71(uStack_4f,local_50);
+    }
+    puVar5 = puVar5 + local_40;
+    local_40 = local_40 + _Size;
+    memmove(puVar5,_Src,_Size);
+    puVar5[_Size] = 0;
+  }
+  if (0xf < local_18) {
+    pvVar4 = local_30[0];
+    if ((0xfff < local_18 + 1) &&
+       (pvVar4 = *(void **)((longlong)local_30[0] + -8),
+       0x1f < (ulonglong)((longlong)local_30[0] + (-8 - (longlong)pvVar4)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar4);
+  }
+  puVar5 = &local_50;
+  if (0xf < uStack_38) {
+    puVar5 = (undefined1 *)CONCAT71(uStack_4f,local_50);
+  }
+  lua_pushstring(param_1,puVar5);
+  lua_error(param_1);
+  if (0xf < uStack_38) {
+    pvVar1 = (void *)CONCAT71(uStack_4f,local_50);
+    pvVar4 = pvVar1;
+    if ((0xfff < uStack_38 + 1) &&
+       (pvVar4 = *(void **)((longlong)pvVar1 + -8),
+       0x1f < (ulonglong)((longlong)pvVar1 + (-8 - (longlong)pvVar4)))) {
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar4);
+  }
+LAB_180078ab4:
+  lua_pushstring(param_1,lVar6);
+  return 1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE FUN_18007dc60 @ 18007dc60 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+undefined4 FUN_18007dc60(longlong param_1)
+
+{
+  return *(undefined4 *)(param_1 + 0x170);
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE lua_pushnumber @ 180003e30 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+void lua_pushnumber(longlong param_1,undefined8 param_2)
+
+{
+  undefined8 *puVar1;
+  
+                    /* 0x3e30  132  lua_pushnumber */
+  puVar1 = *(undefined8 **)(param_1 + 0x10);
+  *puVar1 = param_2;
+  *(undefined4 *)(puVar1 + 1) = 3;
+  *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + 0x10;
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE FUN_18007f960 @ 18007f960 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+undefined8 FUN_18007f960(undefined8 param_1,int *param_2)
+
+{
+  int iVar1;
+  undefined8 uVar2;
+  
+  iVar1 = *param_2;
+  if (iVar1 == 4) {
+    lua_pushnil();
+  }
+  else {
+    if (iVar1 == 0) {
+      lua_pushnumber(param_1,*(undefined8 *)(param_2 + 2));
+      return 1;
+    }
+    if (iVar1 == 3) {
+      lua_pushboolean(param_1,(char)param_2[2]);
+      return 1;
+    }
+    if (iVar1 == 1) {
+      iVar1 = FUN_18007fb60(DAT_180482528,*(undefined8 *)(param_2 + 2));
+      lua_pushnumber(param_1,(double)iVar1);
+      lua_pushnumber(param_1,DAT_180336e10);
+      return 2;
+    }
+    if (iVar1 == 2) {
+      if ((char)param_2[3] != '\0') {
+        uVar2 = FUN_18007d890();
+        FUN_18007fdd0(uVar2,param_2[2]);
+        return 1;
+      }
+      lua_pushnumber(param_1,(double)(uint)param_2[2]);
+      lua_pushnumber(param_1,DAT_180339a90);
+      return 2;
+    }
+  }
+  return 1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE luaL_argerror @ 180016ff0 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+void luaL_argerror(undefined8 param_1,int param_2,undefined8 param_3)
+
+{
+  int iVar1;
+  longlong lVar2;
+  longlong lVar3;
+  undefined *puVar4;
+  undefined1 auStack_138 [32];
+  undefined8 local_118;
+  undefined1 local_108 [8];
+  undefined *local_100;
+  longlong local_f8;
+  ulonglong local_28;
+  
+                    /* 0x16ff0  17  luaL_argerror */
+  local_28 = DAT_18045bc88 ^ (ulonglong)auStack_138;
+  iVar1 = lua_getstack(param_1,0,local_108);
+  if (iVar1 == 0) {
+    luaL_error(param_1,"bad argument #%d (%s)",param_2,param_3);
+  }
+  else {
+    lua_getinfo(param_1,&DAT_180336390,local_108);
+    lVar2 = 0;
+    do {
+      lVar3 = lVar2 + 1;
+      if (*(char *)(local_f8 + lVar2) != "method"[lVar2]) goto LAB_180017092;
+      lVar2 = lVar3;
+    } while (lVar3 != 7);
+    param_2 = param_2 + -1;
+    if (param_2 == 0) {
+      luaL_error(param_1,"calling \'%s\' on bad self (%s)",local_100,param_3);
+    }
+    else {
+LAB_180017092:
+      puVar4 = &DAT_180336194;
+      if (local_100 != (undefined *)0x0) {
+        puVar4 = local_100;
+      }
+      local_118 = param_3;
+      local_100 = puVar4;
+      luaL_error(param_1,"bad argument #%d to \'%s\' (%s)",param_2);
+    }
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE luaL_error @ 180017500 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+void luaL_error(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)
+
+{
+  undefined8 local_res18;
+  undefined8 local_res20;
+  
+                    /* 0x17500  28  luaL_error */
+  local_res18 = param_3;
+  local_res20 = param_4;
+  luaL_where(param_1,1);
+  lua_pushvfstring(param_1,param_2,&local_res18);
+  lua_concat(param_1,2);
+  lua_error(param_1);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE lua_touserdata @ 1800047c0 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+longlong lua_touserdata(void)
+
+{
+  longlong *plVar1;
+  
+                    /* 0x47c0  167  lua_touserdata */
+  plVar1 = (longlong *)FUN_1800030a0();
+  if ((int)plVar1[1] == 2) {
+    return *plVar1;
+  }
+  if ((int)plVar1[1] != 7) {
+    return 0;
+  }
+  return *plVar1 + 0x28;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE FUN_18007ed40 @ 18007ed40 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+undefined8 FUN_18007ed40(longlong param_1,uint param_2,double param_3,undefined8 *param_4)
+
+{
+  undefined8 *puVar1;
+  uint uVar2;
+  int iVar3;
+  undefined4 uVar4;
+  undefined8 uVar5;
+  longlong *plVar6;
+  undefined8 *puVar7;
+  undefined8 *puVar8;
+  longlong lVar9;
+  undefined8 *puVar10;
+  undefined8 *puVar11;
+  undefined8 *puVar12;
+  longlong lVar13;
+  int local_res10 [2];
+  double local_res18;
+  
+  plVar6 = DAT_180482528;
+  lVar13 = (ulonglong)(((int)param_3 ^ param_2) & 0xfff) * 0x20;
+  if ((*(uint *)(lVar13 + 0x20180 + param_1) == param_2) &&
+     (*(double *)(lVar13 + 0x20178 + param_1) == param_3)) {
+    puVar1 = (undefined8 *)(lVar13 + 0x20188 + param_1);
+    uVar5 = puVar1[1];
+    *param_4 = *puVar1;
+    param_4[1] = uVar5;
+    return 0;
+  }
+  if (param_2 == 0) {
+    *(undefined4 *)param_4 = 4;
+    return 0;
+  }
+  puVar1 = (undefined8 *)DAT_180482528[0xc];
+  puVar7 = (undefined8 *)puVar1[1];
+  puVar12 = puVar1;
+  if (*(char *)((longlong)puVar7 + 0x19) == '\0') {
+    do {
+      if (*(uint *)(puVar7 + 4) < param_2) {
+        puVar8 = (undefined8 *)puVar7[2];
+      }
+      else {
+        puVar8 = (undefined8 *)*puVar7;
+        puVar12 = puVar7;
+      }
+      puVar7 = puVar8;
+    } while (*(char *)((longlong)puVar8 + 0x19) == '\0');
+    if ((puVar12 == puVar1) || (param_2 < *(uint *)(puVar12 + 4))) goto LAB_18007ee11;
+  }
+  else {
+LAB_18007ee11:
+    puVar12 = puVar1;
+  }
+  local_res18 = param_3;
+  if (puVar12 != puVar1) {
+    lVar9 = FUN_18007c300(puVar12 + 5,&local_res18);
+    puVar1 = (undefined8 *)puVar12[6];
+    puVar7 = *(undefined8 **)(puVar12[8] + lVar9 * 0x10);
+    puVar8 = puVar7;
+    while( true ) {
+      puVar10 = puVar1;
+      if (puVar7 != puVar1) {
+        puVar10 = (undefined8 *)**(undefined8 **)(puVar12[8] + 8 + lVar9 * 0x10);
+      }
+      puVar11 = puVar1;
+      if ((puVar8 == puVar10) || (puVar11 = puVar8, (double)puVar8[2] == param_3)) break;
+      puVar8 = (undefined8 *)*puVar8;
+    }
+    if (puVar11 != (undefined8 *)puVar12[6]) {
+      uVar5 = puVar11[4];
+      *param_4 = puVar11[3];
+      param_4[1] = uVar5;
+      goto LAB_18007eef1;
+    }
+  }
+  lVar9 = *plVar6;
+  local_res10[0] = 0;
+  uVar2 = *(uint *)((ulonglong)param_2 + lVar9);
+  iVar3 = *(int *)((ulonglong)(uVar2 + 4) + lVar9);
+  uVar4 = *(undefined4 *)((ulonglong)(uVar2 + 8) + lVar9);
+  FUN_18007f620(param_1,*(undefined4 *)((ulonglong)uVar2 + lVar9),SUB84(param_3,0),local_res10);
+  if (local_res10[0] == 0) {
+    *(undefined4 *)param_4 = 4;
+  }
+  else {
+    FUN_18007f410(param_1,param_2,local_res10[0],
+                  *(undefined1 *)((ulonglong)(uint)(local_res10[0] + -1 + iVar3) + *DAT_180482528),
+                  uVar4,param_4);
+  }
+LAB_18007eef1:
+  *(uint *)(lVar13 + 0x20180 + param_1) = param_2;
+  *(double *)(lVar13 + 0x20178 + param_1) = param_3;
+  uVar5 = param_4[1];
+  puVar1 = (undefined8 *)(lVar13 + 0x20188 + param_1);
+  *puVar1 = *param_4;
+  puVar1[1] = uVar5;
+  return 0;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE lua_gettop @ 1800037c0 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+longlong lua_gettop(longlong param_1)
+
+{
+                    /* 0x37c0  104  lua_gettop */
+  return *(longlong *)(param_1 + 0x10) - *(longlong *)(param_1 + 0x18) >> 4;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE luaL_checknumber @ 1800172a0 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+double luaL_checknumber(undefined8 param_1,undefined4 param_2)
+
+{
+  int iVar1;
+  double dVar2;
+  
+                    /* 0x172a0  23  luaL_checknumber */
+  dVar2 = (double)lua_tonumber();
+  if ((dVar2 == 0.0) && (iVar1 = lua_isnumber(param_1,param_2), iVar1 == 0)) {
+    FUN_1800184a0(param_1,param_2,3);
+  }
+  return dVar2;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE lua_error @ 180003470 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+undefined8 lua_error(void)
+
+{
+                    /* 0x3470  90  lua_error */
+  FUN_1800074c0();
+  return 0;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE __security_check_cookie @ 180321620 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+/* WARNING: This is an inlined function */
+/* Library Function - Single Match
+    __security_check_cookie
+   
+   Libraries: Visual Studio 2015, Visual Studio 2017, Visual Studio 2019 */
+
+void __cdecl __security_check_cookie(uintptr_t _StackCookie)
+
+{
+  if ((_StackCookie == DAT_18045bc88) && ((short)(_StackCookie >> 0x30) == 0)) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __report_gsfailure(_StackCookie);
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE FUN_180079ed0 @ 180079ed0 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined1 * FUN_180079ed0(undefined1 *param_1,uint param_2)
+
+{
+  ulonglong uVar1;
+  ulonglong uVar2;
+  char *pcVar3;
+  undefined1 auStack_58 [32];
+  undefined1 *local_38;
+  char local_1d [5];
+  ulonglong local_18;
+  char *pcVar4;
+  
+  local_18 = DAT_18045bc88 ^ (ulonglong)auStack_58;
+  pcVar3 = local_1d + 2;
+  uVar2 = (ulonglong)param_2;
+  if ((int)param_2 < 0) {
+    param_2 = -param_2;
+    do {
+      pcVar4 = pcVar3;
+      pcVar3 = pcVar4 + -1;
+      *pcVar3 = (char)param_2 + (char)((ulonglong)param_2 / 10) * -10 + '0';
+      param_2 = (uint)((ulonglong)param_2 / 10);
+    } while (param_2 != 0);
+    pcVar3 = pcVar4 + -2;
+    *pcVar3 = '-';
+  }
+  else {
+    do {
+      pcVar3 = pcVar3 + -1;
+      uVar1 = uVar2 / 10;
+      *pcVar3 = (char)uVar2 + (char)uVar1 * -10 + '0';
+      uVar2 = uVar1;
+    } while ((int)uVar1 != 0);
+  }
+  *(undefined8 *)(param_1 + 0x10) = 0;
+  *(undefined8 *)(param_1 + 0x18) = 0xf;
+  *param_1 = 0;
+  if (pcVar3 != local_1d + 2) {
+    local_38 = param_1;
+    FUN_180050c80(param_1,pcVar3,local_1d + (2 - (longlong)pcVar3));
+  }
+  return param_1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE FUN_180050c80 @ 180050c80 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+longlong * FUN_180050c80(longlong *param_1,void *param_2,size_t param_3)
+
+{
+  ulonglong uVar1;
+  void *pvVar2;
+  longlong lVar3;
+  ulonglong uVar4;
+  ulonglong uVar5;
+  void *_Memory;
+  longlong *_Dst;
+  ulonglong uVar6;
+  void *_Dst_00;
+  
+  uVar1 = param_1[3];
+  if (uVar1 < param_3) {
+    if (0x7fffffffffffffff < param_3) {
+                    /* WARNING: Subroutine does not return */
+      FUN_180050990();
+    }
+    uVar4 = param_3 | 0xf;
+    uVar6 = 0x7fffffffffffffff;
+    if (((uVar4 < 0x8000000000000000) && (uVar1 <= 0x7fffffffffffffff - (uVar1 >> 1))) &&
+       (uVar5 = (uVar1 >> 1) + uVar1, uVar6 = uVar4, uVar4 < uVar5)) {
+      uVar6 = uVar5;
+    }
+    uVar4 = uVar6 + 1;
+    if (uVar4 < 0x1000) {
+      if (uVar4 == 0) {
+        _Dst_00 = (void *)0x0;
+      }
+      else {
+        _Dst_00 = (void *)FUN_180321970(uVar4);
+      }
+    }
+    else {
+      uVar5 = uVar6 + 0x28;
+      if (uVar5 <= uVar4) {
+        uVar5 = 0xffffffffffffffff;
+      }
+      lVar3 = FUN_180321970(uVar5);
+      if (lVar3 == 0) goto LAB_180050dc3;
+      _Dst_00 = (void *)(lVar3 + 0x27U & 0xffffffffffffffe0);
+      *(longlong *)((longlong)_Dst_00 - 8) = lVar3;
+    }
+    param_1[2] = param_3;
+    param_1[3] = uVar6;
+    memcpy(_Dst_00,param_2,param_3);
+    *(undefined1 *)((longlong)_Dst_00 + param_3) = 0;
+    if (0xf < uVar1) {
+      pvVar2 = (void *)*param_1;
+      _Memory = pvVar2;
+      if ((0xfff < uVar1 + 1) &&
+         (_Memory = *(void **)((longlong)pvVar2 + -8),
+         0x1f < (ulonglong)((longlong)pvVar2 + (-8 - (longlong)_Memory)))) {
+LAB_180050dc3:
+                    /* WARNING: Subroutine does not return */
+        _invalid_parameter_noinfo_noreturn();
+      }
+      free(_Memory);
+    }
+    *param_1 = (longlong)_Dst_00;
+  }
+  else {
+    _Dst = param_1;
+    if (0xf < uVar1) {
+      _Dst = (longlong *)*param_1;
+    }
+    param_1[2] = param_3;
+    memmove(_Dst,param_2,param_3);
+    *(undefined1 *)((longlong)_Dst + param_3) = 0;
+  }
+  return param_1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE lua_pushstring @ 180003e50 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+void lua_pushstring(longlong param_1,longlong param_2)
+
+{
+  longlong lVar1;
+  
+                    /* 0x3e50  133  lua_pushstring */
+  if (param_2 == 0) {
+    *(undefined4 *)(*(longlong *)(param_1 + 0x10) + 8) = 0;
+    *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + 0x10;
+    return;
+  }
+  lVar1 = -1;
+  do {
+    lVar1 = lVar1 + 1;
+  } while (*(char *)(param_2 + lVar1) != '\0');
+  lua_pushlstring();
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE free @ 1803219ac ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+void __cdecl free(void *_Memory)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x000180322f88. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  free(_Memory);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE memmove @ 180322f10 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+void * __cdecl memmove(void *_Dst,void *_Src,size_t _Size)
+
+{
+  void *pvVar1;
+  
+                    /* WARNING: Could not recover jumptable at 0x000180322f10. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pvVar1 = memmove(_Dst,_Src,_Size);
+  return pvVar1;
+}
+
+ (GhidraScript)  
+INFO  DecompileBdd.java> 
+
+===== CALLEE FUN_18004ca50 @ 18004ca50 ===== (GhidraScript)  
+INFO  DecompileBdd.java> 
+undefined8 *
+FUN_18004ca50(undefined8 *param_1,ulonglong param_2,undefined8 param_3,void *param_4,size_t param_5)
+
+{
+  size_t _Size;
+  ulonglong uVar1;
+  void *_Src;
+  longlong lVar2;
+  ulonglong uVar3;
+  ulonglong uVar4;
+  ulonglong uVar5;
+  void *pvVar6;
+  void *_Dst;
+  
+  _Size = param_1[2];
+  if (0x7fffffffffffffff - _Size < param_2) {
+                    /* WARNING: Subroutine does not return */
+    FUN_180050990();
+  }
+  uVar1 = param_1[3];
+  uVar3 = _Size + param_2 | 0xf;
+  uVar5 = 0x7fffffffffffffff;
+  if (((uVar3 < 0x8000000000000000) && (uVar1 <= 0x7fffffffffffffff - (uVar1 >> 1))) &&
+     (uVar4 = (uVar1 >> 1) + uVar1, uVar5 = uVar3, uVar3 < uVar4)) {
+    uVar5 = uVar4;
+  }
+  uVar3 = uVar5 + 1;
+  if (uVar3 < 0x1000) {
+    if (uVar3 == 0) {
+      _Dst = (void *)0x0;
+    }
+    else {
+      _Dst = (void *)FUN_180321970(uVar3);
+    }
+  }
+  else {
+    uVar4 = uVar5 + 0x28;
+    if (uVar4 <= uVar3) {
+      uVar4 = 0xffffffffffffffff;
+    }
+    lVar2 = FUN_180321970(uVar4);
+    if (lVar2 == 0) goto LAB_18004cb7d;
+    _Dst = (void *)(lVar2 + 0x27U & 0xffffffffffffffe0);
+    *(longlong *)((longlong)_Dst - 8) = lVar2;
+  }
+  param_1[2] = _Size + param_2;
+  pvVar6 = (void *)((longlong)_Dst + _Size);
+  param_1[3] = uVar5;
+  if (uVar1 < 0x10) {
+    memcpy(_Dst,param_1,_Size);
+    memcpy(pvVar6,param_4,param_5);
+    *(undefined1 *)((longlong)pvVar6 + param_5) = 0;
+  }
+  else {
+    _Src = (void *)*param_1;
+    memcpy(_Dst,_Src,_Size);
+    memcpy(pvVar6,param_4,param_5);
+    *(undefined1 *)((longlong)pvVar6 + param_5) = 0;
+    pvVar6 = _Src;
+    if ((0xfff < uVar1 + 1) &&
+       (pvVar6 = *(void **)((longlong)_Src + -8),
+       0x1f < (ulonglong)((longlong)_Src + (-8 - (longlong)pvVar6)))) {
+LAB_18004cb7d:
+                    /* WARNING: Subroutine does not return */
+      _invalid_parameter_noinfo_noreturn();
+    }
+    free(pvVar6);
+  }
+  *param_1 = _Dst;
+  return param_1;
+}
+
+ (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/xlua.dll (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///D:/FunPlus/Foundation Galactic Frontier/ngame/1.1.142.209741.234996/launcher_Data/Plugins/x86_64/xlua.dll (HeadlessAnalyzer)  
+INFO  /xlua.dll: file created (cnoji) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /xlua.dll (xlua_analysis:/xlua.dll) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

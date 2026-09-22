@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Regenerable / bulky extraction outputs — not the game's source data
+luapack_lua/          # 10,879 decoded Lua files (~91 MB); regenerate with extract_luapack.py
+
+# Raw game data files (copyright; users supply their own copy)
+*.bin
+pmdata.bin
+luapack.bin
